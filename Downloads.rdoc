@@ -6,13 +6,13 @@
 {Download}[https://github.com/downloads/hak5darren/USB-Rubber-Ducky/duckencode.jar]
 
 V 1.2
-- CRLF fix
+ CRLF fix
 
 V 1.1
-- Minor bug fixes
+ Minor bug fixes
 
 V 1.0
-- Release
+ Release
 
 * {DuckyScript UDL v2}[http://www.mediafire.com/?ope6ljfghkm5m46] - [[DuckyScript]] User Defined Language for Notepad++ (v2)
 
