@@ -15,7 +15,11 @@ The USB Rubber Ducky isn't your ordinary [[http://en.wikipedia.org/wiki/Human_in
   * Community Support: Share sample scripts, complete payloads and get help online
 
 ====Resources====
-  * [http://hakshop.com/products/usb-rubber-ducky]
+
+  * [Product Page at the HakShop](http://hakshop.com/products/usb-rubber-ducky)
+  * [Message Board at the Hak5 Forums](http://forums.hak5.org/index.php?showforum=56)
+  * [Online Duckencoder](http://www.iducke.com) - write and compile [[DuckyScript]] without Java
+  * [USB Rubber Ducky Flash Drive Case](http://hakshop.com/products/usb-rubber-ducky-case)
   * [[DuckyScript]] - The Rubber Ducky Scripting Language 
   * [[Payloads]]
   * [[Feature Request]] - Suggestions for features to be added in duckencode and ducky firmware
