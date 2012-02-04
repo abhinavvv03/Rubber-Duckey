@@ -1,1 +1,26 @@
-Welcome to the USB-Rubber-Ducky wiki!
+=====USB Rubber Ducky Project Wiki=====
+![duck](http://cdn.shopify.com/s/files/1/0068/2142/products/duck5_medium.jpg)
+
+====About====
+Following the success of the [[http://hak5.org/usb-switchblade|USB Switchblade]], the attack platform that was super effective against local Windows targets, the [[http://www.hak5.org|Hak5]] community with the help of [[http://www.appliedsec.com/|Applied Security]] has developed a new kind of attack -- this time cross platform (Windows, Mac, Linux) -- which achieves deadly results by posing as an ubiquitous keyboard.
+
+The USB Rubber Ducky isn't your ordinary [[http://en.wikipedia.org/wiki/Human_interface_device|HID (Human Interface Device)]]. Coupled with a powerful 60 MHz 32-bit processor and a simple scripting language anyone is able to craft payloads capable of changing system settings, opening back doors, retrieving data, initiating reverse shells, or basically anything that can be achieved with physical access -- all automated and executed in a matter of seconds.
+
+  * Cross-Platform: Attacks any OS that supports USB Keyboards
+  * Simple Scripting language: Start writing payloads in minutes
+  * Open Source Firmware: Add functionality using included libraries
+  * Expandable Storage: Micro SD cards make it possible to carry multiple payloads
+  * Community Support: Share sample scripts, complete payloads and get help online
+
+====Resources====
+
+  * [[http://hakshop.com/products/usb-rubber-ducky|Product Page at the HakShop]]
+  * [[http://forums.hak5.org/index.php?showforum=56|Message Board at the Hak5 Forums]]
+  * [[http://www.iducke.com|Online Duckencoder]] - write and compile [[DuckyScript]] without Java
+  * [[http://hakshop.com/products/usb-rubber-ducky-case|USB Rubber Ducky Flash Drive Case]]
+  * [[DuckyScript]] - The Rubber Ducky Scripting Language 
+  * [[Payloads]]
+  * [[Feature Request]] - Suggestions for features to be added in duckencode and ducky firmware
+  * [[Tutorials]] - How-To guides
+  * [[Hardware]]
+  * [[Downloads]] - Duckencoder and Firmware releases
