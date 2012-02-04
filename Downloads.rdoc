@@ -1,0 +1,20 @@
+=====Duck Encoder
+
+[duckencoder] is the cross platform java compiler that converts the ducky script files into hex files necessary for execution.
+
+====Version 1.2====
+[[http://www.hak5.org/duckencode.jar]]
+
+V 1.2\\
+-CRLF fix\\
+
+V 1.1\\
+-Minor bug fixes\\
+
+V 1.0\\
+-Release
+
+* [DuckyScript UDL v2](http://www.mediafire.com/?ope6ljfghkm5m46) - [[DuckyScript]] User Defined Language for Notepad++ (v2)
+
+=====Firmware=====
+1 v -
