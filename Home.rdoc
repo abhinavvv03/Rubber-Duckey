@@ -1,8 +1,8 @@
-=====USB Rubber Ducky Project Wiki=====
+=====USB Rubber Ducky Project Wiki
 
 ![duck](http://cdn.shopify.com/s/files/1/0068/2142/products/duck5_medium.jpg)
 
-====About====
+====About
 
 Following the success of the [[http://hak5.org/usb-switchblade|USB Switchblade]], the attack platform that was super effective against local Windows targets, the [[http://www.hak5.org|Hak5]] community with the help of [[http://www.appliedsec.com/|Applied Security]] has developed a new kind of attack -- this time cross platform (Windows, Mac, Linux) -- which achieves deadly results by posing as an ubiquitous keyboard.
 
@@ -14,7 +14,7 @@ The USB Rubber Ducky isn't your ordinary [[http://en.wikipedia.org/wiki/Human_in
   * Expandable Storage: Micro SD cards make it possible to carry multiple payloads
   * Community Support: Share sample scripts, complete payloads and get help online
 
-====Resources====
+====Resources
 
   * [Product Page at the HakShop](http://hakshop.com/products/usb-rubber-ducky)
   * [Message Board at the Hak5 Forums](http://forums.hak5.org/index.php?showforum=56)
