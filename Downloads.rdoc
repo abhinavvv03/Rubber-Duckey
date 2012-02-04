@@ -3,7 +3,7 @@
 [duckencoder] is the cross platform java compiler that converts the ducky script files into hex files necessary for execution.
 
 ====Version 1.2
-[[http://www.hak5.org/duckencode.jar]]
+{Download}[https://github.com/downloads/hak5darren/USB-Rubber-Ducky/duckencode.jar]
 
 V 1.2\\
 -CRLF fix\\
