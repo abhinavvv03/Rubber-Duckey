@@ -1,9 +1,8 @@
-Restart Prank
-
 Author: Feiris Wheel
 Duckencoder: 1.0
 Target: Windows 7
 Description: adds a shutdown.bat file to the users Startup folder that runs the the Shutdown command and restarts their computer.
+
 REM /////////////////////////////////////////////////////////////////////////////////////////////////////////
 REM ///       I don't have a ducky (yet) but this is a trick I used to pull on co-workers.               ///
 REM ///       Because I don't have a ducky I'm guessing at the delays based on other scripts.            ///
