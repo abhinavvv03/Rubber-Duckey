@@ -22,7 +22,6 @@ The USB Rubber Ducky isn't your ordinary [[http://en.wikipedia.org/wiki/Human_in
   * [USB Rubber Ducky Flash Drive Case](http://hakshop.com/products/usb-rubber-ducky-case)
   * [[DuckyScript]] - The Rubber Ducky Scripting Language 
   * [[Payloads]]
-  * [[Feature Request]] - Suggestions for features to be added in duckencode and ducky firmware
   * [[Tutorials]] - How-To guides
   * [[Hardware]]
   * [[Downloads]] - Duckencoder and Firmware releases
