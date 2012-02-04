@@ -14,7 +14,7 @@ V 1.1\\
 V 1.0\\
 -Release
 
-* [DuckyScript UDL v2](http://www.mediafire.com/?ope6ljfghkm5m46) - [[DuckyScript]] User Defined Language for Notepad++ (v2)
+* {DuckyScript UDL v2}[http://www.mediafire.com/?ope6ljfghkm5m46] - [[DuckyScript]] User Defined Language for Notepad++ (v2)
 
 =====Firmware
 1 v -
