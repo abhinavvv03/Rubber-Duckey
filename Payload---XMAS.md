@@ -1,8 +1,8 @@
-`REM Happy Holidays by Ghostshell
-GUI r
-DELAY 200
-STRING notepad.exe
-ENTER
+`REM Happy Holidays by Ghostshell'
+'GUI r'
+'DELAY 200'
+'STRING notepad.exe'
+'ENTER'
 DELAY 300
 STRING          _
 ENTER
