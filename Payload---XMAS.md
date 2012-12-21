@@ -1,4 +1,4 @@
-REM Happy Holidays by Ghostshell
+`REM Happy Holidays by Ghostshell
 GUI r
 DELAY 200
 STRING notepad.exe
@@ -76,4 +76,4 @@ STRING Cheers!!
 ENTER
 DELAY 100
 ALT SPACE
-STRING x
+STRING x`
