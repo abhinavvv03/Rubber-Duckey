@@ -16,4 +16,5 @@
  * [[Payload - Create Wireless Network Association (AUTO CONNECT) PINEAPPLE]]
  * [[Payload - Retrieve SAM and SYSTEM from a live file system]]
  * [[Payload - Ugly Rolled Prank]]
+ * [[Payload - XMAS]]
  * [[Payload - Pineapple Assocation (VERY FAST)]]
