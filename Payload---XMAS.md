@@ -1,4 +1,4 @@
-`REM Lock Me 0.3 - Script opens Notepad and types a message concerning locking the computer - by SurfKahuna (RJC)
+REM Happy Holidays By Ghostshell
 GUI r
 DELAY 200
 STRING notepad.exe
@@ -76,4 +76,4 @@ STRING Cheers!!
 ENTER
 DELAY 100
 ALT SPACE
-STRING x`
+STRING x
