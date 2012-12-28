@@ -1,7 +1,7 @@
 WiFi Export - Cleartext
 
 Author: Bucky67GTO
-Duckencoder: 1.0
+Duckencoder: 1.2
 Target: Windows 7
 Description: This script will export the wifi settings then send to an ftp server of your choice.  the cool part is that the security is exported in clear text. After sending the file it will delete the exports from the sending directory.
 
