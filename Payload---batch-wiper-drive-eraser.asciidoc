@@ -1,3 +1,4 @@
+Created by overwraith, use at your own risk. This script will erase attached drives on your computer. Made in response to batch wiper malware. 
 ```
 REM By overwraith
 REM EraseFlashDrives.txt
