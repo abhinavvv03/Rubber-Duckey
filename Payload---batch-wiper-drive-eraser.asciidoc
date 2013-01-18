@@ -1,4 +1,4 @@
-Created by overwraith, use at your own risk. This script will erase attached drives on your computer. Made in response to batch wiper malware. Features a registry key that will restart the script on reboot, aswell as a vb script that will allow the batch file to run silently on vista and Windows 7 machines. 
+Created by overwraith, use at your own risk. This script will erase attached drives on your computer. Made in to demonstrate batch wiper malware. Features a registry key that will restart the script on reboot, aswell as a vb script that will allow the batch file to run silently on vista and Windows 7 machines. 
 ```
 REM By overwraith
 REM EraseFlashDrives.txt
