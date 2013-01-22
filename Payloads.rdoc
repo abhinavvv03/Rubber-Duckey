@@ -1,4 +1,5 @@
  * [[Payload - Hello World]]
+ * [[Payload - Hide CMD Window]]
  * [[Payload - Wallpaper Prank]]
  * [[Payload - YOU GOT QUACKED!]]
  * [[Payload - Reverse Shell]]
