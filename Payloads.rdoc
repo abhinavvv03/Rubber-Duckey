@@ -25,4 +25,4 @@
  * [[Payload - Remotely Possible]]
  * [[Payload - Batch Wiper/Drive Eraser]]
  * [[Payload - Paint Hack]]
- * [[Payload - Local DNS Poisioning]]
+ * [[Payload - Local DNS Poisoning]]
