@@ -1,6 +1,6 @@
 The following is a payload I have been working on that waits until a drive labeled "DUCKY" is mounted. I have used some of midnightsnake's code in this payload. I have been having some problems with delays so I went a little overboard with the "DELAY 25" codes. The name of the file that is run can be changed to .exe, I am just having it run a batch for testing purposes. The line that says "STRING %myd%\myEXE.bat" is the line that executes the executable.
 
-'''
+```
 REM Author: overwraith
 REM Name: RunEXE.txt
 REM Purpose: Run an executable file off of the SD card after it mounts. 
@@ -102,14 +102,14 @@ ENTER
 DELAY 25
 STRING EXIT
 ENTER
-'''
+```
 
 The following is the batch file that is run after the "DUCKY" drive has been mounted. Everything is being run invisibly, so you will need to check for the existence of "Message.txt" which will probably be in "C:\Windows\system32".
 
-'''
+```
 REM Message.txt
 echo Hello Wolrd!!!
 echo Hello World!!! > Message.txt
-'''
+```
 
 This payload requires the REPEAT command, so until the online payload generator is online again, or the encoders start supporting the REPEAT command you will be stuck with copy and pasting the repeat command 100 times. I recommend pasting by groups of five or ten. 
