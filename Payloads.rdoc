@@ -27,3 +27,4 @@
  * [[Payload - Paint Hack]]
  * [[Payload - Local DNS Poisoning]]
  * [[Payload - Deny Net Access]]
+ * [[Payload - RunEXE from SD]]
