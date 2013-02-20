@@ -36,8 +36,6 @@ STRING oIE.Visible = true
 ENTER
 CONTROL Z
 ENTER
-REM LATER WILL TYPE THE WEBSITES TO A TEXT FILE,
-REM AND SEND THE FILE TO THE VB SCRIPT
 REM RUN THE VB SCRIPT TO LAUNCH INTERNET EXPLORER
 REM THE DOUBLE QUOTES BECOME MORE IMPORTANT FOR LONGER URLs
 STRING MobileTabs.vbs "http://www.google.com/" "http://mwomercs.com/" "http://hak5.org/" "http://forums.hak5.org/index.php?/forum/56-usb-rubber-ducky/"
