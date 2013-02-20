@@ -3,8 +3,7 @@ The following is just something that types in a VB script that sends command lin
 ```
 REM AUTHOR: overwraith
 REM MOBILETABS.TXT BEGINS
-REM HIDE COMMAND WINDOW
-CONTROL ESCAPE
+GUI R
 STRING cmd /Q /D /T:0a /F:OFF /V:OFF /K
 DELAY 500
 ENTER
