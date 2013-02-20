@@ -1,3 +1,4 @@
+The following is just something that types in a VB script that sends command line arguments to internet explorer and opens new tabs based on the URLs you specify via command line. 
 
 ```
 REM MOBILETABS.TXT BEGINS
@@ -38,6 +39,7 @@ ENTER
 REM LATER WILL TYPE THE WEBSITES TO A TEXT FILE,
 REM AND SEND THE FILE TO THE VB SCRIPT
 REM RUN THE VB SCRIPT TO LAUNCH INTERNET EXPLORER
-STRING MobileTabs.vbs http://www.google.com/ http://mwomercs.com/ http://hak5.org/ http://forums.hak5.org/index.php?/forum/56-usb-rubber-ducky/
+REM THE DOUBLE QUOTES BECOME MORE IMPORTANT FOR LONGER URLs
+STRING MobileTabs.vbs "http://www.google.com/" "http://mwomercs.com/" "http://hak5.org/" "http://forums.hak5.org/index.php?/forum/56-usb-rubber-ducky/"
 ENTER
 ```
