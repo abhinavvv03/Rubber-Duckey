@@ -54,3 +54,4 @@ DOWNARROW
 REPEAT 100
 ENTER
 ```
+Windows can also be hidden on other sides of the screen ex... replace DOWNARROW with RIGHTARROW, LEFTARROW, UPARROW.
