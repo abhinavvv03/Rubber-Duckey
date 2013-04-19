@@ -21,6 +21,7 @@ The USB Rubber Ducky isn't your ordinary {HID (Human Interface Device)}[http://e
 * {Online Duckencoder}[http://www.iducke.com]  - write and compile [[DuckyScript]] without Java
 * [[DuckyScript]] - The Rubber Ducky Scripting Language 
 * [[Payloads]]
+* * [[My First Payload]]
 * [[Tutorials]] - How-To guides
 * [[Hardware]]
 * [[Downloads]] - Duckencoder and Firmware releases
