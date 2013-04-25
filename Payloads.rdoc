@@ -25,6 +25,7 @@
  * [[Payload - MissDirection]]
  * [[Payload - Remotely Possible]]
  * [[Payload - Batch Wiper/Drive Eraser]]
+ * [[Payload - Generic Batch]]
  * [[Payload - Paint Hack]]
  * [[Payload - Local DNS Poisoning]]
  * [[Payload - Deny Net Access]]
