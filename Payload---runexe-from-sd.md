@@ -64,7 +64,7 @@ ENTER
 DELAY 25
 REM Continue script.
 DELAY 25
-STRING %myd%\myEXE.bat
+STRING START %myd%\myEXE.bat
 DELAY 25
 ENTER
 DELAY 25
@@ -112,4 +112,5 @@ echo Hello Wolrd!!!
 echo Hello World!!! > Message.txt
 ```
 
-This payload requires the REPEAT command, so until the online payload generator is online again, or the encoders start supporting the REPEAT command you will be stuck with copy and pasting the repeat command 100 times. I recommend pasting by groups of five or ten. 
+The encoders now support the repeat command, so should only be a problem if you are using an old encoder. 
+
