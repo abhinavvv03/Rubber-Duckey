@@ -82,5 +82,5 @@ echo Hello Wolrd!!!
 echo Hello World!!! > Message.txt
 ```
 
-The encoders now support the repeat command, so should only be a problem if you are using an old encoder. 
+The encoders now support the repeat command, so should only be a problem if you are using an old encoder. Encoders also now support white space in the duck script, so functions have been separated with white space. 
 
