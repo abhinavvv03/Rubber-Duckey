@@ -1,4 +1,4 @@
-The following is a payload I have been working on that waits until a drive labeled "DUCKY" is mounted. I have used some of midnightsnake's code in this payload. I have been having some problems with delays so I went a little overboard with the "DELAY 25" codes. The name of the file that is run can be changed to .exe, I am just having it run a batch for testing purposes. The line that says "STRING %myd%\myEXE.bat" is the line that executes the executable.
+The following is a payload I have been working on that waits until a drive labeled "DUCKY" is mounted. I have used some of midnightsnake's code in this payload. The name of the file that is run can be changed to .exe, I am just having it run a batch for testing purposes. The line that says "STRING START %myd%\myEXE.bat" is the line that executes the executable.
 
 ```
 REM Author: overwraith
