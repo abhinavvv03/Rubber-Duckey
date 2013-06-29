@@ -32,3 +32,4 @@
  * [[Payload - RunEXE from SD]]
  * [[Payload - OSX Root Backdoor]]
  * [[Payload - OSX User Backdoor]]
+ * [[Payload - MrGray's Rubber Hacks]]
