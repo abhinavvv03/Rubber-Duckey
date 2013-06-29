@@ -1,4 +1,5 @@
 Original version by redmeatuk. 
+
 ```
 DEFAULT_DELAY 400
 REM This payload temporarily disables AVG 2013 for 15 minutes assumes that UAC has not been used recently
