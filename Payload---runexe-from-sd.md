@@ -38,13 +38,13 @@ do set myd=%%d
 ENTER
 STRING if Exist %myd% (
 ENTER
-STRING goto break
+STRING goto :break
 ENTER
 STRING )
 ENTER
 STRING timeout /t 30
 ENTER
-STRING goto while1
+STRING goto :while1
 ENTER
 STRING :break
 ENTER
