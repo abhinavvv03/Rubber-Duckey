@@ -35,3 +35,5 @@
  * [[Payload - MrGray's Rubber Hacks]]
  * [[Payload - Copy File to Desktop]]
  * [[Payload - Youtube Roll]]
+ * [[Payload - Disable AVG 2012]]
+ * [[Payload - Disable AVG 2013]]
