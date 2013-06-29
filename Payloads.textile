@@ -33,3 +33,4 @@
  * [[Payload - OSX Root Backdoor]]
  * [[Payload - OSX User Backdoor]]
  * [[Payload - MrGray's Rubber Hacks]]
+ * [[Payload - Copy File to Desktop]]
