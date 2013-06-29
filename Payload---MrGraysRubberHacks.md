@@ -3,6 +3,12 @@ The forum page is located here:
 
 http://forums.hak5.org/index.php?/topic/29067-payload-mr-grays-password-history-recovery-tool-for-rubber-ducky/
 
+The executables are accessible at: 
+
+http://www.mediafire.com/?nm1c62qt9w9z3wg
+
+The executables are also individually downloadable from their original location at nirsoft. The executables become resistant to most antivirus detection using the packer UPX. Other such products would further obfuscate the signatures. 
+
 ```
 ENCODE: 
 
