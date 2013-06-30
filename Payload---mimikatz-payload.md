@@ -90,7 +90,7 @@ DELAY 300
 ENTER
 ```
 
-# Now, a similar payload using a ducky EXE running script, again copy paste. 
+# Now, a similar payload by shutin using a ducky EXE running script, again copy paste. 
 
 Woo! Finally posting my own working payload! Thanks to overwraith and readmeatuk for their base code that I just tied together. This basically does exactly what readmeatuk's code does except you won't need an internet connection.
 
