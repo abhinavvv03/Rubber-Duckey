@@ -65,9 +65,7 @@ REM FROM: http://stackoverflow.com/questions/289498/running-batch-file-in-
 background-when-windows-boots-up
 STRING copy con invis.vbs
 ENTER
-STRING CreateObject("Wscript.Shell").Run """" & WScript.Arguments(0) & """", 0, 
-
-False
+STRING CreateObject("Wscript.Shell").Run """" & WScript.Arguments(0) & """", 0, False
 ENTER
 CONTROL Z
 ENTER
