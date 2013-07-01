@@ -33,9 +33,7 @@ ENTER
 REM DuckyWait.bat
 STRING :while1
 ENTER
-STRING for /f "tokens=3 delims= " %%A in ('echo list volume ^| diskpart ^| 
-
-findstr "DUCKY"') do (set DUCKYdrive=%%A:)
+STRING for /f "tokens=3 delims= " %%A in ('echo list volume ^| diskpart ^| findstr "DUCKY"') do (set DUCKYdrive=%%A:)
 ENTER
 STRING if Exist %DUCKYdrive% (
 ENTER
