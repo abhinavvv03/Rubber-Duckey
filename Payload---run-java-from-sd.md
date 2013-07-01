@@ -79,6 +79,8 @@ ENTER
 If you are not containing this script and the application within a folder on the ducky drive, then remove this line: 
 
 ```
+...
 STRING cd Java_Application
 ENTER
+...
 ```
