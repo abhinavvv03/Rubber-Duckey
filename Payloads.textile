@@ -31,6 +31,7 @@
  * [[Payload - Local DNS Poisoning]]
  * [[Payload - Deny Net Access]]
  * [[Payload - RunEXE from SD]]
+ * [[Payload - Run Java from SD]]
  * [[Payload - OSX Root Backdoor]]
  * [[Payload - OSX User Backdoor]]
  * [[Payload - MrGray's Rubber Hacks]]
