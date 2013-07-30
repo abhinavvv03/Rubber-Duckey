@@ -67,7 +67,7 @@ CODE
 Modifications made by overwraith, twin duck firmware, changes to ducky's SD card. 
 
 ```
-REM Modifications by overwraith
+ REM Modifications by overwraith
  ESCAPE
  CONTROL ESCAPE
  DELAY 400
