@@ -1,5 +1,7 @@
-`> REM Author: Cody Theodore
-> REM Title: OSX Youtube Blast
+REM Author: Cody Theodore
+
+REM Title: OSX Youtube Blast
+
 REM This payload will open terminal, crank up the Macs volume all the way, then open a youtube video of your choice by replacing the link. Remember to include the "watch_popup" part of the URL for full screen.
 DELAY 1000
 GUI SPACE
