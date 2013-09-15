@@ -35,6 +35,7 @@
  * [[Payload - Run Java from SD]]
  * [[Payload - OSX Root Backdoor]]
  * [[Payload - OSX User Backdoor]]
+ * [[Payload - OSX Youtube Blaster]]
  * [[Payload - MrGray's Rubber Hacks]]
  * [[Payload - Copy File to Desktop]]
  * [[Payload - Youtube Roll]]
