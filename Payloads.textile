@@ -41,3 +41,4 @@
  * [[Payload - Youtube Roll]]
  * [[Payload - Disable AVG 2012]]
  * [[Payload - Disable AVG 2013]]
+ * [[Payload - EICAR AV test]]
