@@ -24,8 +24,8 @@ Similar to the REM command in Basic and other languages, lines beginning with RE
 
 DEFAULT_DELAY or DEFAULTDELAY is used to define how long (in milliseconds * 10) to wait between each subsequent command. DEFAULT_DELAY must be issued at the beginning of the ducky script and is optional. Not specifying the DEFAULT_DELAY will result in faster execution of ducky scripts. This command is mostly useful when debugging.
 ^ Command       ^ Parameters  ^
-| DEFAULT_DELAY | //n// |
-| DEFAULTDELAY  | //n// |
+| DEFAULT_DELAY | 0..-> |
+| DEFAULTDELAY  | 0..-> |
 
    DEFAULT_DELAY 100
    REM delays 100ms between each subsequent command sequence
@@ -34,7 +34,7 @@ DEFAULT_DELAY or DEFAULTDELAY is used to define how long (in milliseconds * 10) 
 
 DELAY creates a momentary pause in the ducky script. It is quite handy for creating a moment of pause between sequential commands that may take the target computer some time to process. DELAY time is specified in milliseconds from 1 to 10000. Multiple DELAY commands can be used to create longer delays.
 ^ Command ^ Parameters ^
-| DELAY | //n// |
+| DELAY | 0..-> |
 
    DELAY 500
    REM will wait 500ms before continuing to the next command.
@@ -154,4 +154,3 @@ As of [[duckencoder]] 1.X usage is:
 For example on a Linux system:
 
    java -jar duckencoder.jar -i exploit.txt -o /media/microsdcard/inject.bin
-
