@@ -38,7 +38,7 @@ The community is storing generated payloads on the following wiki-page:
 * STRING ''xyz'' - types following characters
 * GUI - Windows Menu Key
 * GUI R - Windows Run box
-* Command - OSX Command Key
+* COMMAND - OSX Command Key
 * UP | UPARROW - Up Key
 * DOWN | DOWNARROW - Down Key
 * LEFT | LEFTARROW - Left Key
