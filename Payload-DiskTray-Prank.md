@@ -40,6 +40,7 @@ ALT F4
 DELAY 100
 GUI d
 DELAY 100
+GUI r
 STRING Disk Cleanup.vbs
 ENTER
 ```
