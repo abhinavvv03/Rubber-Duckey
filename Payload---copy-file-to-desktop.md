@@ -2,7 +2,7 @@ The following is something I have been working on based on the payload "Runexe f
 
 ```
 REM Author: overwraith
-REM Name: RunEXE.txt
+REM Name: CopyFileToDesktop.txt
 REM Purpose: Wait for ducky mass storage to mount, then copy file to desktop. 
 REM Encoder V2.4
 REM Using the run command for a broader OS base. 
@@ -60,9 +60,7 @@ REM MAKE THE VBS FILE THAT ALLOWS RUNNING INVISIBLY.
 REM Delete vbs file if already exists
 STRING erase /Q invis.vbs
 ENTER
-REM FROM: http://stackoverflow.com/questions/289498/running-batch-file-in-
-
-background-when-windows-boots-up
+REM FROM: http://stackoverflow.com/questions/289498/running-batch-file-in-background-when-windows-boots-up
 STRING copy con invis.vbs
 ENTER
 STRING CreateObject("Wscript.Shell").Run """" & WScript.Arguments(0) & """", 0, False
