@@ -36,6 +36,7 @@
  * [[Payload - OSX Root Backdoor]]
  * [[Payload - OSX User Backdoor]]
  * [[Payload - OSX Youtube Blaster]]
+ * [[Payload - OSX Ascii Prank]]
  * [[Payload - MrGray's Rubber Hacks]]
  * [[Payload - Copy File to Desktop]]
  * [[Payload - Youtube Roll]]
