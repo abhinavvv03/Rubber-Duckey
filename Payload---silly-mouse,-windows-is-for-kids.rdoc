@@ -91,7 +91,7 @@ Description: This is a fun payload that changes the users mouse cursor to a load
 
 -----------------------------------------------
 
-* AUTHOR : FlyinGrub
+* Author: FlyinGrub
 * Target: Windows 7
 * Description: same things but better :P, (work on french windows, some shortcut differs ...)
  REM *-this is opening up the mouse config.-*
