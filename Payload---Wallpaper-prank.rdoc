@@ -38,7 +38,7 @@
 
 -----------------------------------------------------------------
 
-* AUTHOR : FlyinGrub
+* Author: FlyinGrub
 * Target: Windows 7
 * Description: same things but better :P, (work on french windows 7, some shortcut differs ...)
  DELAY 10000
