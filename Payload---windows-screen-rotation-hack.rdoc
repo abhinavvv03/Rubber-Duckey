@@ -19,7 +19,6 @@ Side Notes: if target pc is slow put more delays in. :3
  TAB
  TAB
  TAB
- TAB
  ENTER
  TAB
  ENTER
