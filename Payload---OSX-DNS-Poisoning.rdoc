@@ -46,3 +46,7 @@
  ENTER
  STRING 127.0.0.1 www.example.com
  ENTER
+ CTRL O
+ ENTER
+ CTRL X
+ STRING shutdown -h now
