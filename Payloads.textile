@@ -35,7 +35,7 @@
  * [[Payload - Run Java from SD]]
  * [[Payload - OSX Root Backdoor]]
  * [[Payload - OSX User Backdoor]]
- * [[Payload - OSX DNS Poisoning]]
+ * [[Payload - OSX Local DNS Poisoning]]
  * [[Payload - OSX Youtube Blaster]]
  * [[Payload - OSX Ascii Prank]]
  * [[Payload - MrGray's Rubber Hacks]]
