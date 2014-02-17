@@ -1,5 +1,5 @@
 * Author - SWISA
-* Boot into single user mode and insert ducky. This script will created a dns entry. This payload was encoded with v2.4 on firmware duck_v2.1.hex. Change IP Adress and/or url if you want to 
+* Boot into single user mode and insert ducky. This script will created a dns entry. Change IP Adress and/or url if you want to 
 
  REM SWISA
  REM A script to create a dns entry in the host file of a mac
