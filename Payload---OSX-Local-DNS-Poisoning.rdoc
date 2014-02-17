@@ -1,8 +1,8 @@
 * Author - SWISA
-* Boot into single user mode and insert ducky. This script will create a local dns entry in the host file. Change IP Adress and/or url.
+* Boot into single user mode and insert ducky. This script will create a local DNS entry in the host file. Change the IP adress and/or url.
 
  REM SWISA
- REM A script to create a local dns entry in the host file of a mac.
+ REM A script to create a local DNS entry in the host file of a mac.
  REM change the example.com to any site you want.
  REM change the 127.0.0.1 to any ip you want.
  DELAY 1000
