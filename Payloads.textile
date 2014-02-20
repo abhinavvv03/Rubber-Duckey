@@ -47,5 +47,3 @@
  * [[Payload - Disable AVG 2013]]
  * [[Payload - EICAR AV test]]
  * [[Payload - Download mimikatz, grab passwords and email them via gmail]]
- * [[Payload - OSX Grab Minecraft Account Password and upload to FTP]]
- * [[Payload - OS X Wget and Execute]]
