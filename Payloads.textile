@@ -40,6 +40,7 @@
  * [[Payload - OSX Ascii Prank]]
  * [[Payload - OSX Grab Minecraft Account Password and upload to FTP]]
  * [[Payload - OS X Wget and Execute]]
+ * [[Payload - OSX Passwordless SSH access (ssh keys)]]
  * [[Payload - MrGray's Rubber Hacks]]
  * [[Payload - Copy File to Desktop]]
  * [[Payload - Youtube Roll]]
