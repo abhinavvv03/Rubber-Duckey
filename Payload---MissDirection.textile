@@ -6,6 +6,8 @@ Target: Windows 7
 
 Payload will edit the hosts file to allow you to redirect web pages where you would like the user to go.
 
+<pre>
+<code>
 DELAY 2000
 ESCAPE
 CONTROL ESCAPE
@@ -22,3 +24,5 @@ ENTER
 DELAY 400
 ALT SPACE
 STRING c
+</code>
+</pre>
