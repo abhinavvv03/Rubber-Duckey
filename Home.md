@@ -1,6 +1,6 @@
 =====USB Rubber Ducky Project Wiki
 
-http://usbrubberducky.com/images/d4.jpg
+![Ducky](http://usbrubberducky.com/images/d4.jpg)
 
 ====About
 
