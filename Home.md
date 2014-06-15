@@ -21,8 +21,7 @@ The USB Rubber Ducky isn't your ordinary [HID (Human Interface Device)](http://e
 * [Online Duckencoder](http://www.iducke.com)  - write and compile [[DuckyScript]] without Java
 * [Duckuino](https://github.com/Plazmaz/Duckuino) - Encode DuckyScript into code for the Arduino Leonardo
 * [[DuckyScript]] - The Rubber Ducky Scripting Language 
-* [[Payloads]]
-* * [[My First Payload]]
+* [[Payloads]] -> * [[My First Payload]]
 * [[Tutorials]] - How-To guides
 * [[Hardware]]
 * [[Downloads]] - Duckencoder and Firmware releases
