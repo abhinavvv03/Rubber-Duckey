@@ -9,7 +9,7 @@ REM ADMIN PRIVILEGES
 REM PURPOSE: to create a script that types in a generic batch file and executes siletntly. 
 REM Using the run command for a broader OS base. 
 DELAY 3000
-GUI R
+GUI r
 DELAY 1000
 STRING cmd /Q /D /T:7F /F:OFF /V:ON /K
 DELAY 500
