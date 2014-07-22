@@ -8,7 +8,7 @@ REM Encoder V2.4
 REM Using the run command for a broader OS base. 
 DEFAULT_DELAY 75
 DELAY 3000
-GUI R
+GUI r
 DELAY 1000
 STRING cmd /Q /D /T:7F /F:OFF /V:ON /K
 DELAY 500
