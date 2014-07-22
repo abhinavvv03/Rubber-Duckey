@@ -155,7 +155,7 @@ Description: This is a fun payload that changes the users mouse cursor to a load
  DELAY 200
 
  REM *-killing explorer.exe-*
- GUI R
+ GUI r
  DELAY 200
  STRING cmd.exe
  ENTER
