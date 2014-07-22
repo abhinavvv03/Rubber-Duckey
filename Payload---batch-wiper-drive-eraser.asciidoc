@@ -3,7 +3,7 @@ Created by overwraith, use at your own risk. This script will erase attached dri
 REM By overwraith
 REM EraseFlashDrives.txt
 REM PURPOSE: to delete the contents of attached drives. 
-GUI R
+GUI r
 STRING cmd /Q /D /T:7F /F:OFF /V:OFF /K
 DELAY 500
 ENTER
