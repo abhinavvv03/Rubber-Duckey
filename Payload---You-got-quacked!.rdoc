@@ -19,7 +19,7 @@
  STRING %userprofile%\Desktop\QUACKED.png
  ENTER
  REM opens the png file
- MENU sk
+ MENU
  ENTER
  ALT F4
  REM sets the background, and closes.
