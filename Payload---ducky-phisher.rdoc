@@ -17,7 +17,7 @@ Description: Used for phishing websites, read the REM in the code.
  MENU
  DELAY 75
  STRING a
- Enter
+ ENTER
  DELAY 200
  LEFT
  ENTER
