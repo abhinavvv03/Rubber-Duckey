@@ -8,7 +8,7 @@
  ENTER
  DELAY 100
  REM Opens up window and goes to a image I created xD
- CTRL S
+ CTRL s
  STRING %userprofile%\Desktop\QUACKED
  ENTER
  REM saving the picture to the user Desktop, pic name QUACKED...
