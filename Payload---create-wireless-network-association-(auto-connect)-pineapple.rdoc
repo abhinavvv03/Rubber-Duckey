@@ -6,7 +6,6 @@ Target: Windows 7
 Description: Creates network association for auto connection to the pineapple
 CODE
 
- DEFAULT_DELAY 200
  ESC
  ESC
  REM opens task manager for a distraction 
