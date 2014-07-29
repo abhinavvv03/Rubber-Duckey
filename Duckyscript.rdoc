@@ -22,7 +22,7 @@ Similar to the REM command in Basic and other languages, lines beginning with RE
 
 ===DEFAULT_DELAY or DEFAULTDELAY
 
-DEFAULT_DELAY or DEFAULTDELAY is used to define how long (in milliseconds * 10) to wait between each subsequent command. DEFAULT_DELAY must be issued at the beginning of the ducky script and is optional. Not specifying the DEFAULT_DELAY will result in faster execution of ducky scripts. This command is mostly useful when debugging.
+DEFAULT_DELAY or DEFAULTDELAY is used to define how long (milliseconds) to wait between each subsequent command. DEFAULT_DELAY must be issued at the beginning of the ducky script and is optional. Not specifying the DEFAULT_DELAY will result in faster execution of ducky scripts. This command is mostly useful when debugging.
 ^ Command       ^ Parameters  ^
 | DEFAULT_DELAY | 0..-> |
 | DEFAULTDELAY  | 0..-> |
