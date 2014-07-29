@@ -26,5 +26,5 @@ DOWN
 DOWN
 ENTER
 ALT y
-ALT-F4
+ALT F4
 ```
