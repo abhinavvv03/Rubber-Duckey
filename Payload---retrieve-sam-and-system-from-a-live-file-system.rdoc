@@ -66,7 +66,6 @@ CODE
 
 Modifications made by overwraith, twin duck firmware, changes to ducky's SD card. 
 
-```
  REM Modifications by overwraith
  ESCAPE
  CONTROL ESCAPE
@@ -129,5 +128,3 @@ Modifications made by overwraith, twin duck firmware, changes to ducky's SD card
  STRING exit
  ENTER
  REM Make sure to change the DIRECTORY above.
-```
- 
