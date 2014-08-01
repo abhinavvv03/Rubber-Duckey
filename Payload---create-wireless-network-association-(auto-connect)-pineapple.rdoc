@@ -48,4 +48,3 @@ CODE
  GUI r
  STRING Shutdown.exe -r -t 00
  ENTER
- REM IF you find bug please email me @ mreidiv@yahoo.com
