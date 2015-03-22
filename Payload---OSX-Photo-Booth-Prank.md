@@ -26,6 +26,8 @@ DELAY 3000
 <br>
 GUI SPACE
 <br>
+DELAY 100
+<br>
 STRING terminal
 <br>
 DELAY 100
