@@ -37,4 +37,5 @@ DELAY 1000
 STRING say You look ugly!
 <br>
 DELAY 100
+<br>
 ENTER
