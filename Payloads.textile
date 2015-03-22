@@ -37,6 +37,7 @@
  * [[Payload - OSX User Backdoor]]
  * [[Payload - OSX Local DNS Poisoning]]
  * [[Payload - OSX Youtube Blaster]]
+ * [[Payload - OSX Photo Booth Prank]]
  * [[Payload - OSX Ascii Prank]]
  * [[Payload - OSX Grab Minecraft Account Password and upload to FTP]]
  * [[Payload - OS X Wget and Execute]]
