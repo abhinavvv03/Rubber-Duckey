@@ -1,6 +1,6 @@
 REM Title: OSX Internet Protocol Slurp
 REM Author: Cameron Glass
-REM Description: This payload quickly copies down information gathered from terminals command ifconfig and pastes it in a notepad. This payload also quickly cleans up after itself so that you can open the notepad later and look at the information. You can also edit this payload to write it down in a text file.
+REM Description: This payload quickly copies down information gathered from terminals command ifconfig and pastes it in a file called "default_config" (So there is no suspicion) in the Documents folder. This payload also quickly cleans up after itself allowing for a 10 second stealth slurp. If need be you may change the command "ifconfig" to any other command such as "ls" or others.
 REM --
 DELAY 1000
 GUI SPACE
