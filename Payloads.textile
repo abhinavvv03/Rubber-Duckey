@@ -1,4 +1,5 @@
  * [[Payload - Hello World]]
+ * [[Payload - "Hello World" Ubuntu]]
  * [[Payload - Hide CMD Window]]
  * [[Payload - Netcat-FTP-download-and-reverse-shell]]
  * [[Payload - Wallpaper Prank]]
