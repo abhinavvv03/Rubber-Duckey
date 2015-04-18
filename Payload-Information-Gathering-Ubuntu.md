@@ -1,27 +1,27 @@
 The following script is an information gatherer script which collects info from a running Ubuntu OS and saves it to a file named "info_gathering.txt". 
 The info that the script retrieves is the logged in username, the distribution and kernel version of the running system, the applicability of the shellsock bug, the mounted filesystems, information which is related to the Network adapters, availability of development tools (python, g++), contents of the hosts file and the listening TCP/UDP connections. Apart from that it attempts to find readable folders inside the /etc folder and also prints the SUID and GUID files.
 
-   ` REM Info gathering Ubuntu 1.0 Script issues OS info gathering commands in terminal - by Captain_Harlock`
-    `DELAY 3000`
-    `ALT F2`
-    `DELAY 300`
-    `STRING gnome-terminal `
-    `DELAY 100`
-    `ENTER`
-    `DELAY 200`
-    `STRING clear`
-    `DELAY 10`
-    `ENTER`
-    `DELAY 50`
-    `STRING echo "Logged in user:" $USER > info_gathering.txt`
-    `ENTER `
-    `DELAY 50`
-    `STRING echo >> info_gathering.txt`
-    `DELAY 50`
-    `ENTER `
-    `DELAY 50`
-    `STRING echo -n "Distribution Kernel Version:" >> info_gathering.txt`
-    `DELAY 50`
+    REM Info gathering Ubuntu 1.0 Script issues OS info gathering commands in terminal - by Captain_Harlock
+    DELAY 3000
+    ALT F2
+    DELAY 300
+    STRING gnome-terminal
+    DELAY 100
+    ENTER
+    DELAY 200
+    STRING clear
+    DELAY 10
+    ENTER
+    DELAY 50
+    STRING echo "Logged in user:" $USER > info_gathering.txt
+    ENTER
+    DELAY 50
+    STRING echo >> info_gathering.txt
+    DELAY 50
+    ENTER 
+    DELAY 50
+    STRING echo -n "Distribution Kernel Version:" >> info_gathering.txt
+    DELAY 50
     `ENTER `
     `DELAY 50`
     `STRING cat /etc/issue | cut -c1-13 >> info_gathering.txt`
@@ -123,16 +123,16 @@ The info that the script retrieves is the logged in username, the distribution a
     `DELAY 50`
     `ENTER`
     `DELAY 200`
-    `STRING dpkg -l >> info_gathering.txt`
-    `ENTER`
-    `DELAY 300`
-    `STRING echo >> info_gathering.txt`
-    `ENTER`
-    `DELAY 50`
-    `STRING echo "Find Readable Folders in /etc" >> info_gathering.txt`
-    `ENTER`
-    `DELAY 50`
-    `STRING find /etc -user `id -u` -perm -u=r -o -group `id -g` -perm -g=r -o -perm -o=r -ls 2> /dev/null >> info_gathering.txt`
+     STRING dpkg -l >> info_gathering.txt
+     ENTER
+     DELAY 300
+     STRING echo >> info_gathering.txt
+     ENTER
+     DELAY 50
+     STRING echo "Find Readable Folders in /etc" >> info_gathering.txt
+     ENTER
+     DELAY 50
+     STRING find /etc -user `id -u` -perm -u=r -o -group `id -g` -perm -g=r -o -perm -o=r -ls 2> /dev/null >> info_gathering.txt`
     `ENTER`
     `DELAY 500`
     `STRING echo >> info_gathering.txt`
