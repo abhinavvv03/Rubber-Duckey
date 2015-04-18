@@ -7,9 +7,7 @@ The info that the script retrieves is the following:
 - Network Adapters info
 - Availability of Development tools (python, g++ etc)
 - Printing of hosts file
-- Printing of TCP/UDP Listening Services
-- Gathering of installed Ubuntu Packages
-- Searches for SUID and GUID files
+- Printing of TCP/UDP Listening Servic
 
 
 
