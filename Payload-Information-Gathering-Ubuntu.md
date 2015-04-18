@@ -2,12 +2,7 @@ The following script is an information gatherer script which collects info from 
 The info that the script retrieves is the following:
 - Logged in Username
 - Distribution and kernel version of running system
-- Applicability of Shellsock Bug Vulnerability
-- Mounted Filesystem
-- Network Adapters info
-- Availability of Development tools (python, g++ etc)
-- Printing of hosts file
-- Printing of TCP/UDP Listening Servic
+- Applicability of Shellsock bug
 
 
     REM Infogathering Ubuntu 1.0 Script issues OS info gathering commands in terminal - by Captain_Harlock
