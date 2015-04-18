@@ -1,6 +1,6 @@
  * [[Payload - Hello World]]
  * [[Payload - Basic Terminal Commands Ubuntu]]
- * [[Payload Information Gathering Ubuntu]]
+ * [[Payload - Information Gathering Ubuntu]]
  * [[Payload - Hide CMD Window]]
  * [[Payload - Netcat-FTP-download-and-reverse-shell]]
  * [[Payload - Wallpaper Prank]]
