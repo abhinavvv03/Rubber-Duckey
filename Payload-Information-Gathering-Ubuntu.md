@@ -12,6 +12,8 @@ The info that the script retrieves is the following:
 - Searches for readable Folders in /etc
 - Searches for SUID and GUID files
 
+
+
     REM Infogathering Ubuntu 1.0 Script issues OS info gathering commands in terminal - by Captain_Harlock
     DELAY 3000
     ALT F2
