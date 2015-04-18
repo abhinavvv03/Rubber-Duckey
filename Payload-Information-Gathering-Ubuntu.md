@@ -9,7 +9,7 @@ The info that the script retrieves is the following:
 - Printing of hosts file
 - Printing of TCP/UDP Listening Services
 - Gathering of installed Ubuntu Packages
-- Searches for readable Folders in /etc
+- Searches
 - Searches for SUID and GUID files
 
 
