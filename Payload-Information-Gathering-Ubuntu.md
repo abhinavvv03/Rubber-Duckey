@@ -1,9 +1,7 @@
 The following script is an information gatherer script which collects info from a running Ubuntu OS and saves it to a file named "info_gathering.txt". 
-The info that the script retrieves is the following:
-- Logged Username
+The info that the script retrieves is the logged in username, the distribution and kernel version of the running system, the applicability of the shellsock bug, the mounted filesystems, information which is related to the Network adapters, availability of development tools (python, g++), contents of the hosts file and the listening TCP/UDP connections. Apart from that it attempts to find readable folders inside the /etc folder and also prints the SUID and GUID files.
 
-
-    REM Infogathering Ubuntu 1.0 Script issues OS info gathering commands in terminal - by Captain_Harlock
+    REM Info gathering Ubuntu 1.0 Script issues OS info gathering commands in terminal - by Captain_Harlock
     DELAY 3000
     ALT F2
     DELAY 300
