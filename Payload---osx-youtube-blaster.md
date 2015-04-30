@@ -1,7 +1,7 @@
     REM Author: Cody Theodore
     REM Title: OSX Youtube Blast
     REM This payload will open terminal, crank up the Macs volume all the way, then open a youtube video of
-    REM your choice by replacing the link. Remember to include the "watch_popup" part of the URL for full screen.
+    REM your choice by replacing the link.
     DELAY 1000
     GUI SPACE
     STRING terminal
