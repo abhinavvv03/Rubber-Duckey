@@ -12,6 +12,6 @@
     DELAY 500
     ENTER
     DELAY 500
-    STRING open http://www.youtube.com/watch_popup?v=dQw4w9WgXcQ
+    STRING open https://www.youtube.com/watch?v=dQw4w9WgXcQ
     DELAY 500
     ENTER
