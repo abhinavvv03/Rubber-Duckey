@@ -4,7 +4,7 @@ Duckencoder: 1.0
 
 Target: Windows 7
 
-Description: Opens administrative CMD prompt, creates decoder.vbs containing code to convert base64 encoded ascii to binary, creates text file including base64 ascii of binary file to create reverse shell. converts second file to exe with first file. Executes with host and port parameters. Props to go illwill for this payload. See http://dabermania.blogspot.com/2011/04/copying-executable-from-teensy-using.html
+Description: Opens administrative CMD prompt, creates decoder.vbs containing code to convert base64 encoded ascii to binary, creates text file including base64 ascii of binary file to create reverse shell. converts second file to exe with first file. Executes with host and port parameters. Props to go illwill for this payload. See http://dabermania.blogspot.co.il/2011/04/copying-executable-from-teensy-using.html
 
  ESCAPE
  CONTROL ESCAPE
