@@ -7,8 +7,7 @@ REM Option : if you change the link of the video dont forget to change the watch
 DELAY 5000
 GUI r
 DELAY 50
-STRING http://www.youtube.com/watch_popup?v=qTkFw4q8CZw&loop=1
+STRING www.youtube.com/embed/qTkFw4q8CZw?rel=0&autoplay=1
 ENTER
 DELAY 1000
 F11
-```
