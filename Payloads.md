@@ -1,4 +1,5 @@
  * [[Payload - Hello World]]
+ * [Payload - WiFi password grabber](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload---WiFi-password-grabber)
  * [[Payload - Basic Terminal Commands Ubuntu]]
  * [[Payload - Information Gathering Ubuntu]]
  * [[Payload - Hide CMD Window]]
