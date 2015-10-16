@@ -1,5 +1,4 @@
  * [[Payload - Hello World]]
- * [[Payload - WiFi key grabber]]
  * [[Payload - Basic Terminal Commands Ubuntu]]
  * [[Payload - Information Gathering Ubuntu]]
  * [[Payload - Hide CMD Window]]
