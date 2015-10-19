@@ -14,9 +14,9 @@ If you have **any suggestions** please **tell me**.
 ## **Code**:
 ```
 REM Author: Siem
-REM Version: 2
+REM Version: 2.1
 REM Description: Clear text WiFi key grabber
-DELAY 1000
+DELAY 2500
 WINDOWS d
 
 REM --> Open cmd
