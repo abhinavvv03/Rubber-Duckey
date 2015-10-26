@@ -1,7 +1,7 @@
 ### Change the following things;
 * **ACCOUNT**: Your **gmail account**
 * **PASSWORD**: Your **gmail password**
-* **RECEIVER**: The email you want to send Log.txt to
+* **RECEIVER**: The email you want to send the content of Log.txt to
 
 ## **Code**;
 ```
