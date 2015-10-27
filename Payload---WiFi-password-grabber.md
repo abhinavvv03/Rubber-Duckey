@@ -37,7 +37,7 @@ REM --> Get authentication
 STRING for /f "tokens=2 delims=: " %A in ('findstr "Authentication" A.txt') do set C=%A
 ENTER
 
-REM --> Get key
+REM --> Get password
 STRING for /f "tokens=3 delims=: " %A in ('findstr "Key Content" A.txt') do set D=%A
 ENTER
 
