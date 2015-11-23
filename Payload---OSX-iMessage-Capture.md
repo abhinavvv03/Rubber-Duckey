@@ -1,6 +1,5 @@
 
-***
-`DELAY 500
+DELAY 500
 GUI SPACE
 DELAY 150
 STRING Terminal
@@ -25,4 +24,3 @@ STRING exit
 ENTER
 DELAY 250
 GUI q
-`
