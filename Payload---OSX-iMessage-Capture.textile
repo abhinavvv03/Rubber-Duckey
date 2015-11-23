@@ -1,5 +1,4 @@
-
-DELAY 500
+<pre><code>DELAY 500
 GUI SPACE
 DELAY 150
 STRING Terminal
