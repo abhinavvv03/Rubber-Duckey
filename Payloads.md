@@ -55,3 +55,4 @@
  * [[Payload - EICAR AV test]]
  * [[Payload - Download mimikatz, grab passwords and email them via gmail]]
  * [[Payload - Hotdog Wallpaper]]
+ * [[Payload - Name]]
