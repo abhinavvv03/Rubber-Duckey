@@ -56,3 +56,4 @@
  * [[Payload - Download mimikatz, grab passwords and email them via gmail]]
  * [[Payload - Hotdog Wallpaper]]
  * [[Payload - Android 5.x Lockscreen]]
+ * [[Payload - Chrome Password Stealer]]
