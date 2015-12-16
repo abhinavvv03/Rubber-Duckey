@@ -1,6 +1,6 @@
 Steals Chrome passwords in the blink of an eye.
 
-Credits: This payload was created by nuk3leus
+Credits: This payload was created by nuk3leus (https://github.com/Nuk3leus/Ducky-chrome-password-stealer)
 
 ```
 REM Author: Nuk3leus
