@@ -1,4 +1,5 @@
 Steals Chrome passwords in the blink of an eye.
+
 Credits: This payload was created by nuk3leus
 
 ```
