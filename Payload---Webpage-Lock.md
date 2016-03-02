@@ -10,7 +10,6 @@ Code:
 	REM Info:
 	REM     The user can easily unplug and re-plug in the keyboard/mouse to reinstall the drivers get them working again. 
 	REM     This requires the user to plug a USB drive in with some extra files BEFORE the ducky is plugged in.
-	REM     The files are here: https://www.dropbox.com/sh/i09leu4kcifta6a/AACEFYQnlOIUsDtLLrQuemCha?dl=0.
 	REM     Make sure the files are in the root of a drive called DUCKY.
 	REM     Twin duck works well with this. It is what I used when I was testing it. 
 	REM File Descriptions:
