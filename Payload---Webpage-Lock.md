@@ -2,22 +2,22 @@ The explanation is in the code.
 Link to other files: https://www.dropbox.com/sh/i09leu4kcifta6a/AACEFYQnlOIUsDtLLrQuemCha?dl=0 (same link as the one in the code)
 
 Code:
-		REM Title: Website Lock
-		REM Author: Audiack
-		REM Target Ducky Encoder: 2.6.2
-		REM Target OS: Windows 7 (32 and 64 bit), maybe older/newer windows versions. Haven't tested it on any other than 7.
-		REM Description: Plays off of Aprizm's script to open a website, but it also disables the mouse and keyboard so the user can't leave the website.
-		REM Info:
-		REM     The user can easily unplug and re-plug in the keyboard/mouse to reinstall the drivers get them working again. 
-		REM     This requires the user to plug a USB drive in with some extra files BEFORE the ducky is plugged in.
-		REM     The files are here: https://www.dropbox.com/sh/i09leu4kcifta6a/AACEFYQnlOIUsDtLLrQuemCha?dl=0.
-		REM     Make sure the files are in the root of a drive called DUCKY.
-		REM     Twin duck works well with this. It is what I used when I was testing it. 
-		REM File Descriptions:
-		REM     The devcon32 & devcon64 are the files used to uninstall the keyboard and mouse drivers (for the two architectures).
-		REM     The invisible.vbs is used to run the batch script invisibly after the video is in fullscreen.
-		REM     The TheRealAnnoyance.bat is the batch script run in the background that disables their mouse & keyboard.
-		REM     The WebsiteLink.txt contains the website link. The user can change this as desired. Make sure there are no spaces and there is only a single link.
+	REM Title: Website Lock
+	REM Author: Audiack
+	REM Target Ducky Encoder: 2.6.2
+	REM Target OS: Windows 7 (32 and 64 bit), maybe older/newer windows versions. Haven't tested it on any other than 7.
+	REM Description: Plays off of Aprizm's script to open a website, but it also disables the mouse and keyboard so the user can't leave the website.
+	REM Info:
+	REM     The user can easily unplug and re-plug in the keyboard/mouse to reinstall the drivers get them working again. 
+	REM     This requires the user to plug a USB drive in with some extra files BEFORE the ducky is plugged in.
+	REM     The files are here: https://www.dropbox.com/sh/i09leu4kcifta6a/AACEFYQnlOIUsDtLLrQuemCha?dl=0.
+	REM     Make sure the files are in the root of a drive called DUCKY.
+	REM     Twin duck works well with this. It is what I used when I was testing it. 
+	REM File Descriptions:
+	REM     The devcon32 & devcon64 are the files used to uninstall the keyboard and mouse drivers (for the two architectures).
+	REM     The invisible.vbs is used to run the batch script invisibly after the video is in fullscreen.
+	REM     The TheRealAnnoyance.bat is the batch script run in the background that disables their mouse & keyboard.
+	REM     The WebsiteLink.txt contains the website link. The user can change this as desired. Make sure there are no spaces and there is only a single link.
 	
 	DELAY 3000
 	CTRL ESC
