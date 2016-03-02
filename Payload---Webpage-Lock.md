@@ -3,7 +3,7 @@ Link to other files: https://www.dropbox.com/sh/i09leu4kcifta6a/AACEFYQnlOIUsDtL
 
 Code:
 ```
-REM Title: 12 Website Lock
+REM Title: Webpage Lock
 REM Author: Audiack
 REM Target Ducky Encoder: 2.6.2
 REM Target OS: Windows 7 (32 and 64 bit), maybe older/newer windows versions. Haven't tested it on any other than 7.
