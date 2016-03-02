@@ -2,6 +2,7 @@ The explanation is in the code.
 Link to other files: https://www.dropbox.com/sh/i09leu4kcifta6a/AACEFYQnlOIUsDtLLrQuemCha?dl=0 (same link as the one in the code)
 
 Code:
+```
 	REM Title: Website Lock
 	REM Author: Audiack
 	REM Target Ducky Encoder: 2.6.2
@@ -52,3 +53,4 @@ Code:
 	ENTER
 	DELAY 1000
 	F11
+```
