@@ -47,7 +47,7 @@ STRING C:/windows/System32/wscript.exe invisible.vbs TheRealAnnoyance.bat
 ENTER
 DELAY 400
 
-REM Aprizm's code for youtube roller begins here. I changed the link to a ctrl-v so that the ducky pastes the contents of WebsiteLink.txt hence line 20: 'type "WebsiteLink.txt" | clip'
+REM Aprizm's code for youtube roller begins here. I changed the link to a ctrl-v so that the ducky pastes the contents of WebsiteLink.txt hence the above line of code: 'type "WebsiteLink.txt" | clip'
 REM Title: Youtube Roller
 REM Author: Aprizm
 REM Description: This scripts opens a youtube video in fullscreen and puts the browser in fullscreen
