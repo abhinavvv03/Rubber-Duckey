@@ -18,7 +18,7 @@ Code:
 	REM     The invisible.vbs is used to run the batch script invisibly after the video is in fullscreen.
 	REM     The TheRealAnnoyance.bat is the batch script run in the background that disables their mouse & keyboard.
 	REM     The WebsiteLink.txt contains the website link. The user can change this as desired. Make sure there are no spaces and there is only a single link.
-	
+
 	DELAY 3000
 	CTRL ESC
 	DELAY 700
