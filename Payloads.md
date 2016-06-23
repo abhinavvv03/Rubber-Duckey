@@ -58,3 +58,4 @@
  * [[Payload - Android 5.x Lockscreen]]
  * [[Payload - Chrome Password Stealer]]
  * [[Payload - Website Lock]]
+ * [[Payload - Windows 10 : Download & Change Wallpaper]]
