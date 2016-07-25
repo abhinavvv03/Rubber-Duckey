@@ -1,3 +1,8 @@
+GET THE CODE SNIPS HERE:
+
+http://lostserver.com/static/rubberduckcode.txt
+
+
 Write this code to your Rubber Ducky payload file using the encoder, the wget is an alias that exist in powershell already: 
 ---------------------------------------------------------------------
 
