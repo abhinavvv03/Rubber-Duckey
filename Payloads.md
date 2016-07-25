@@ -59,3 +59,4 @@
  * [[Payload - Chrome Password Stealer]]
  * [[Payload - Website Lock]]
  * [[Payload - Windows 10 : Download & Change Wallpaper]]
+ * [[Payload - Windows 10 : Download & Change Wallpaper another version]]
