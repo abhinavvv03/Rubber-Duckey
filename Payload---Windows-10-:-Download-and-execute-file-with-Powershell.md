@@ -3,7 +3,7 @@ A ducky script that uses the powershell to download and execute a file from a we
 Change the link and what name to save the file as.
 
 
-Preview: https://www.youtube.com/watch?v=3WojmjCiXnw
+Preview: https://www.youtube.com/watch?v=gGHjdtamQ9A
 
 ```
 REM Windows 10: Poweshell administrator download and execute file
