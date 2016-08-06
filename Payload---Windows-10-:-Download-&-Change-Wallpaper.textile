@@ -1,3 +1,4 @@
+```
 REM This is a script to download and change the wallpaper in windows 10
 REM In order to work, windows must be using the default app for opening photos 
 DELAY 5000
@@ -53,3 +54,4 @@ DOWN
 DELAY 500
 ENTER
 DELAY 500
+```
