@@ -6,7 +6,7 @@ GUI d
 DELAY 100
 CONTROL ESCAPE
 DELAY 100
-STRING iexplore http://fakeupdate.net/win7/index.html
+STRING iexplore -k http://fakeupdate.net/win7/index.html
 ENTER
 DELAY 2000
 F11
