@@ -87,3 +87,5 @@ ENTER
 
 ### Suggestions;
 **If you have any suggestions, write them down here.**
+
+The cmd prompt must be elevated to get any passwords.  If you change from using the WINDOWS r to using the search menu for "cmd" and pressing ctrl+shift+enter you can get a UAC prompt.  From there you'd need to alt+Y to get the elevated prompt.
