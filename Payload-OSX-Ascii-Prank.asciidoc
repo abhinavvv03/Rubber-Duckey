@@ -1,4 +1,4 @@
-REM Author: Antti Kuosmanen
++REM Author: Antti Kuosmanen
 REM Title: OSX Ascii Prank
 REM Description: Tells you to fuck off
 DELAY 1000
@@ -55,4 +55,4 @@ STRING          $$$                $$$
 ENTER
 STRING           $$                $$
 ENTER
-STRING           $$$$$$$$$$$$$$$$$$$$
+STRING           $$$$$$$$$$$$$$$$$$$$+
