@@ -1,6 +1,6 @@
 <pre>
 DELAY 3000
-CONTROL ESCAPE
+GUI r
 DELAY 100
 STRING iexplore http://s3.amazonaws.com/rapgenius/hotdog.jpg
 ENTER
