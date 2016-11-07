@@ -18,7 +18,6 @@ The USB Rubber Ducky isn't your ordinary [HID (Human Interface Device)](http://e
 
 * [Product Page at the HakShop](http://hakshop.com/products/usb-rubber-ducky)
 * [Message Board at the Hak5 Forums](http://forums.hak5.org/index.php?showforum=56)
-* [Duckuino](https://github.com/Plazmaz/Duckuino) - Encode DuckyScript into code for the Arduino Leonardo
 * [[DuckyScript]] - The Rubber Ducky Scripting Language 
 * [[Payloads]] -> * [[My First Payload]]
 * [[Tutorials]] - How-To guides
