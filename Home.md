@@ -23,4 +23,3 @@ The USB Rubber Ducky isn't your ordinary [HID (Human Interface Device)](http://e
 * [[Tutorials]] - How-To guides
 * [[Hardware]]
 * [[Downloads]] - Duckencoder and Firmware releases
-* [Deprecated USB Rubber Ducky Wiki](http://www.usbrubberducky.com/wiki/) - Outdated
