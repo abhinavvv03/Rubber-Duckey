@@ -9,7 +9,7 @@
 ```
 GUI d
 WINDOWS
-STRING http://img46.imageshack.us/img46/2199/45760922.png?
+STRING https://i.imgflip.com/1dv8ac.jpg
 ENTER
 DELAY 100
 REM Opens up window and goes to a image I created xD
