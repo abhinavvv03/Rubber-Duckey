@@ -104,3 +104,36 @@ Update firmware:
  sudo ./dfu-programmer at32uc3b1256 flash --suppress-bootloader-mem ducky-update.hex
 Don't forget to get the ducky working again:
  sudo ./dfu-programmer at32uc3b1256 reset
+
+==Ducky-Flasher Utility==
+
+kmichael500 wrote a small program in python to quickly and easily flash the USB Rubber Ducky
+
+* [https://code.google.com/p/ducky-flasher/ ducky-flasher]
+* [https://github.com/hak5darren/USB-Rubber-Ducky/blob/master/Flash/ducky-flasher1.0.zip ducky-flasher mirror]
+* [https://forums.hak5.org/index.php?/topic/29281-release-ducky-flasher-v10/ ducky-flasher forum post]
+
+===Contains Firmware Versions===
+
+* duck.hex v2 (Duck(Original))
+* usb.hex v2 (FAT Duck)
+* m_duck.hex v2 (Detour Duck(formerly Naked Duck))
+* c_duck.hex v2 (Twin Duck) (Special 1) (Special 2)
+
+===Installation===
+
+Install dfu-programmer
+ apt-get install dfu-programmer
+Download ducky-flasher
+ wget https://github.com/hak5darren/USB-Rubber-Ducky/raw/master/Flash/ducky-flasher1.0.zip
+Unzip ducky-flasher
+ unzip ducky-flasher1.0.zip
+Setup and run Ducky-Flasher
+ cd ducky-flasher1.0
+ sudo python setup.py
+ sudo ducky-flasher
+
+===Usage===
+
+To start simply type ducky-flasher in a terminal emulator
+Insert your USB Rubber Ducky while holding down the micro push button to put it in DFU mode
