@@ -45,7 +45,7 @@ ENTER
 STRING      `-.____/
 ENTER
 ENTER
-STRING Twas the
+STRING It was the
 ENTER
 STRING Night
 ENTER
