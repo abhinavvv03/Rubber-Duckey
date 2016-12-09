@@ -1,17 +1,17 @@
-REM Script by Darren Rainey http://github.com/DarrenRainey
+`REM Script by Darren Rainey http://github.com/DarrenRainey`
 
-DELAY 500
+`DELAY 500`
 
-GUI
+`GUI`
 
-DELAY 150
+`DELAY 150`
 
-TAB
+`TAB`
 
-DELAY 150
+`DELAY 150`
 
-TAB
+`TAB`
 
-DELAY 150
+`DELAY 150`
 
-ENTER`
+`ENTER``
