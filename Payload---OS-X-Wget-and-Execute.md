@@ -1,6 +1,6 @@
 This is a simple script that downloads any kind of file and executes it.  There is a script like this for windows so I figured I would contribute and make one for OS X. Edit to your specifications. Requires duck encoder 2.6.3 to work which can be downloaded at http://goo.gl/QkTXNp 
 
-    REM Title: OS X Wget and Execute
+    REM Title: OS X get and Execute
     REM Author: Jesse Wallace (c0deous)
     REM Simple script that downloads any file and runs it. 
     REM Requires duckencoder 2.6.3 which can be downloaded at http://goo.gl/QkTXNp
