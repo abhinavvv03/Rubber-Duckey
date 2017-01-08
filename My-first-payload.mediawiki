@@ -23,13 +23,13 @@ The steps of this example can be broken down into:
 
 * Note : For Windows 10, the GUI does not seem to work. Use CTRL ESC instead. Below is the complete example:
 <code>
-DELAY 2000 <br>
-CTRL ESC <br>
-DELAY 2000 <br>
-STRING notepad.exe <br>
-ENTER <br>
-DELAY 2000 <br>
-STRING HELLO WORLD!!! <br>
+DELAY 2000
+CTRL ESC
+DELAY 2000
+STRING notepad.exe
+ENTER
+DELAY 2000
+STRING HELLO WORLD!!!
 ENTER
 </code>
 = Example 2 - Download & Execute =
