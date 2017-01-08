@@ -20,6 +20,18 @@ The steps of this example can be broken down into:
  DELAY 200
  STRING Hello World!!!
  ENTER
+
+* Note : For Windows 10, the GUI does not seem to work. Use CTRL ESC instead. Below is the complete example:
+
+DELAY 2000
+CTRL ESC
+DELAY 2000
+STRING notepad.exe
+ENTER
+DELAY 2000
+STRING HELLO WORLD!!!
+ENTER
+
 = Example 2 - Download & Execute =
 An example of using Powershell to download a file from the web and then execute it.
  DELAY 3000
