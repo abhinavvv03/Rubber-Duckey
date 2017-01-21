@@ -80,6 +80,7 @@
 * Description: same thing with the adition of hiding the desktop icons (work on Portuguese windows 10)
 
 GUI d
+
 DELAY 500
 PRINTSCREEN
 DELAY 100
@@ -114,8 +115,14 @@ SHIFT F10
 DELAY 100
 DOWN
 DELAY 100
+
 RIGHT
+
 DELAY 100
+
 UP
+
 DELAY 100
+
 ENTER
+
