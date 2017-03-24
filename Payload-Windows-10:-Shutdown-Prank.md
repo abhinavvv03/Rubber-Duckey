@@ -1,17 +1,33 @@
 REM Author: Alexander Yakovlev https://github.com/toxydose
+
 DELAY 1500
+
 CONTROL ESCAPE
+
 DELAY 3500
+
 TAB
+
 DELAY 200
+
 TAB
+
 DELAY 200
+
 TAB
+
 DELAY 200
+
 ENTER
+
 DELAY 200
+
 DOWNARROW
+
 DELAY 200
+
 DOWNARROW
+
 DELAY 200
+
 ENTER
