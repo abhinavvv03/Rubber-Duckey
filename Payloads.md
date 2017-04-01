@@ -47,7 +47,7 @@
  * [[Payload - OSX Grab Minecraft Account Password and upload to FTP]]
  * [[Payload - OS X Wget and Execute]]
  * [[Payload - OSX Passwordless SSH access (ssh keys)]]
- * [Payload - OSX Bella Script] (https://github.com/killingit57/bella-usb-rubber-ducky)
+ * [Payload - OSX Bella Script](https://github.com/killingit57/bella-usb-rubber-ducky)
  * [[Payload - MrGray's Rubber Hacks]]
  * [[Payload - Copy File to Desktop]]
  * [[Payload - Youtube Roll]]
