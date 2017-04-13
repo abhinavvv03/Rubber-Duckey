@@ -1,11 +1,3 @@
-So this is a modified bat file I made years ago. This payload is designed for Admins with no monitoring or who have just started a new job. 
-
-This will make a folder on the root of C called Audits and then a sub folder and there will be two text files contained here. One txt file will have system info details and one will have a list of all installed programs. 
-
-At the bottom of the script you can edit the Robocopy command to send the files anywhere you have permissions too (You may need to configure UAC entries) All the windows that were opened will close even if it is not in order.
-
-feel free to tinker with this and make it your own. My handle is Phantom Santa because I drop random packets all round the world :P 
-
 DELAY 2000
 GUI r
 DELAY 150
