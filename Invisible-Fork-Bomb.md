@@ -9,8 +9,7 @@ Version 2.0
 Repository: [https://github.com/BlueArduino20/Invisible_fork_bomb](https://github.com/BlueArduino20/Invisible_fork_bomb)
 
 # Code
-<pre><code>
-DELAY 1000
+<pre><code>DELAY 1000
 REM ^ You should set more delay time if your computer is slow or if the script doesn't work correctly.
 GUI r
 DELAY 500
