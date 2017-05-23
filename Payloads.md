@@ -48,6 +48,7 @@
  * [[Payload - OS X Wget and Execute]]
  * [[Payload - OSX Passwordless SSH access (ssh keys)]]
  * [Payload - OSX Bella RAT Installation](https://github.com/killingit57/bella-usb-rubber-ducky)
+ * [Payload - OSX Sudo for all users without password](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload---OSX-Sudo-for-all-users-without-password)
  * [[Payload - MrGray's Rubber Hacks]]
  * [[Payload - Copy File to Desktop]]
  * [[Payload - Youtube Roll]]
