@@ -1,4 +1,4 @@
-**Author: Jesse Wallace (@c0deous)**
+**Author: Jesse Wallace ([@c0deous](https://twitter.com/c0deous))**
 **[c0deo.us](https://c0deo.us/)**
 
 This script adds a line into /etc/sudoers that enables sudo for ALL users **without requiring a password.**  Only requirement is a reboot into [single user mode](https://support.apple.com/en-us/HT201573).
