@@ -7,7 +7,7 @@ This script adds a line into /etc/sudoers that enables sudo for ALL users **with
 
 Setup a [firmware password](https://support.apple.com/en-us/HT204455) or enable [FileVault](https://support.apple.com/en-us/HT204837) disk encryption.
 
-This method was tested on macOS 10.12 but should work for all versions. (?)
+This method was tested on macOS 10.7.5, 10.11, 10.12 but should work for all versions. (?)
 
 ```
 REM MacOS AllSudo
