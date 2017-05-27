@@ -10,8 +10,5 @@ REM let the ducky HID enumerate
 DELAY 3000
 GUI r
 DELAY 500
-STRING iexplore http://fakeupdate.net/win10u/index.html
+STRING iexplore -k http://fakeupdate.net/win10u/index.html
 ENTER
-REM is likely that have slow internet connection
-DELAY 4000
-F11
