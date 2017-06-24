@@ -1,4 +1,4 @@
-# Invisible Fork Bomb [Windows]
+# Invisible Fork Bomb [Windows 7 and upper]
 **V. 2.0:** The script creates and starts a vbs that executes exponentially cmd.exe without visible windows (Fork bomb -> Freezes the PC).
 
 **V. 3.0:** The same, but it sets the vbs file into the startup.
