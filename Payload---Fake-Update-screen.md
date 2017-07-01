@@ -5,6 +5,7 @@ Change `http://fakeupdate.net/win10u/index.html` to another page on fakeupdate.n
 ```
 REM fake update LUL
 REM author: Judge2020 https://judge2020.com
+REM edited by: DanielL99 on github (thanks!)
 REM  
 REM let the ducky HID enumerate
 DELAY 3000
@@ -12,3 +13,4 @@ GUI r
 DELAY 500
 STRING iexplore -k http://fakeupdate.net/win10u/index.html
 ENTER
+```
