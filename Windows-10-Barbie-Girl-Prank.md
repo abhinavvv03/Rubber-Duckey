@@ -1,6 +1,6 @@
 
 
-
+```
 REM <---- These delay values seem to work great for me. Over all it will take 
 REM <----- 17.5 secs to execute. Mostly because of YouTube ads. Play around
 REM <----- with the delay values to decrease execute time. 
@@ -110,3 +110,4 @@ DELAY 400
 REM <----- Set window to the left so you can see both text and image
 GUI LEFT
 REM <--- SUPER SIMPLE -HAVE FUN! - TYLER D. 
+```
