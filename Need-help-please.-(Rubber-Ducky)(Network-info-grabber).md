@@ -70,8 +70,8 @@ ENTER
 DELAY 500
 REM --> Delete Log.txt and exit
 STRING del Log.txt & exit
-ENTER
-`
+ENTER`
+
 
 
 
