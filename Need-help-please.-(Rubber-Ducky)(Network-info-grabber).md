@@ -88,7 +88,7 @@ Also using it against a windows 7 laptop.
 ***
 Edit by berkeley_blue:
 
-I haven't checked your code but I have a working one. You need to change "SENDER","PASSWORD" and "RECIEVER".
+I haven't checked your code but I have a working one. You need to change "SENDER", "PASSWORD" and "RECEIVER".
 Original author is Siem. I did little changes.
 
 ```
