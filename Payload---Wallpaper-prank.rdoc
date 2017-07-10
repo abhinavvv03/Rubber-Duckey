@@ -77,10 +77,9 @@
 
 * Author: C4PT4IN B4RCODE
 * Target: Windows 10
-* Description: same thing with the adition of hiding the desktop icons (work on Portuguese windows 10)
-
+* Description: same thing with the addition of hiding the desktop icons (work on Portuguese windows 10)
+```
 GUI d
-
 DELAY 500
 PRINTSCREEN
 DELAY 100
@@ -120,3 +119,4 @@ DELAY 100
 UP
 DELAY 100
 ENTER
+```
