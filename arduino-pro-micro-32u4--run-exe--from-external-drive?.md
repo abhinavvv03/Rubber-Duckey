@@ -1,3 +1,4 @@
+```cpp
 #include <HID-Project.h>
 #include <HID-Settings.h>
 
@@ -48,3 +49,4 @@ void setup()
 
 // Unused
 void loop() {}
+```
