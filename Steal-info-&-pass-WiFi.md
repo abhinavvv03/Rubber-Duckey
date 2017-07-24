@@ -50,5 +50,5 @@
     ENTER
 
 *  This code works well in my PC (if you need adjust delays)
-*  Make a free frp account here: https://www.drivehq.com
+*  Make a free ftp account here: https://www.drivehq.com
 *  Change (of course) your username & password
