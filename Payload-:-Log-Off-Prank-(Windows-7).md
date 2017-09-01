@@ -41,4 +41,4 @@ GUI l
 ```
 I've only tested this on Windows 10, but I believe it works on Windows 7 and higher (*maybe* even Vista).
 
-\- Sam van der Kris (gitlab.com/WarKitteh)
+\- Sam van der Kris ([GitLab](https://gitlab.com/warkitteh]))
