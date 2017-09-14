@@ -6,7 +6,6 @@ Change example.com to your own domain or listening IP address and 1337 to your o
 
 ```
 REM Original Author: oXis
-REM Original Payload for Bash Bunny: https://github.com/hak5/bashbunny-payloads/tree/master/payloads/library/credentials/SudoBackdoor
 REM Modified by 5h@d0w
 DELAY 2000
 GUI space
