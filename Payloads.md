@@ -36,7 +36,7 @@
  * [[Payload - Deny Net Access]]
  * [[Payload - RunEXE from SD]]
  * [[Payload - Run Java from SD]]
- * [Payload - OSX Sudo Passwords Grabber](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload-Linux-or-OSX-sudo-password-grabber)
+ * [Payload - OSX Sudo Passwords Grabber](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Linux-and-OSX-sudo-password-grabber)
  * [[Payload - OSX Root Backdoor]]
  * [[Payload - OSX User Backdoor]]
  * [[Payload - OSX Local DNS Poisoning]]
