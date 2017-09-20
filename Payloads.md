@@ -7,6 +7,7 @@
  * [[Payload - Wallpaper Prank]]
  * [[Payload - YOU GOT QUACKED!]]
  * [[Payload - Reverse Shell]]
+ * [Payload - Reverse Shell With Persistence](https://github.com/WifiLANDucky/DigiPayloads/wiki/Ducky-Reverse-Shell-With-Persistence)
  * [[Payload - Fork Bomb]]
  * [[Payload - Utilman Exploit]]
  * [[Payload - WiFi Backdoor]]
