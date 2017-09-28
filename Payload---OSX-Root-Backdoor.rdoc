@@ -1,5 +1,5 @@
 * Author - Patrick Mosca
-* Boot into single user mode and insert ducky. This script will created a persistent backdoor as the root user. This payload was encoded with v2.4 on firmware duck_v2.1.hex. Change to your IP address or domain name and port number. 
+* Boot into single user mode and insert ducky. This script will create a persistent backdoor as the root user. This payload was encoded with v2.4 on firmware duck_v2.1.hex. Change to your IP address or domain name and port number. 
 * A good tutorial on the payload here: http://patrickmosca.com/root-a-mac-in-10-seconds-or-less/
 
  REM Patrick Mosca
