@@ -167,7 +167,8 @@ Repeats the last command n times
 | REPEAT | number of times to repeat |
 
     DOWN
-    REPEAT 100 The previous command is repeated 100 times (thus performed 101 times total)
+    REPEAT 100 
+    REM The previous command is repeated 100 times (thus performed 101 times total)
 
 ## Compiling
 
