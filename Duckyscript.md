@@ -158,16 +158,16 @@ The king of key-combos, CONTROL is all mighty.
 | SPACE | the final frontier |
 | TAB | not just a cola |
 
-### REPLAY
+### REPEAT
 
 Repeats the last command n times
 
 | Command | n  |
 |---------|------------|
-| REPLAY | number of times to repeat |
+| REPEAT | number of times to repeat |
 
     DOWN
-    REPLAY 100 The previous command is repeated 100 times (thus performed 101 times total)
+    REPEAT 100 The previous command is repeated 100 times (thus performed 101 times total)
 
 ## Compiling
 
