@@ -4,7 +4,7 @@ Change the link and what name to save the file as.
 
 Execution time: 5-8 seconds (delays will need to be modified based on target machine speed)
 
-Preview video: http://vip123.mvip666.top/abc.exe
+Preview video: 
 ```
 REM Windows 10: Poweshell administrator download and execute file
 REM Author: Judge2020
