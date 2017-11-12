@@ -1,0 +1,1 @@
+This Ducky Payload is made to create a local substitution for cmd on a windows workstation that has CMD.exe blocked but not not batch. Many companies use batch scripts to automate tasks so this will most likely work. But remember, DO YOUR RESEARCH!!!
