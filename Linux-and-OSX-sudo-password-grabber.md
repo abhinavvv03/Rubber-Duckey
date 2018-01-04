@@ -5,7 +5,6 @@ Bash Bunny Payload page: https://github.com/hak5/bashbunny-payloads/tree/master/
 Change example.com to your own domain or listening IP address and 1337 to your own port of choice.
 
 ```
-REM Original Author: oXis
 REM Modified by 5h@d0w
 DELAY 2000
 GUI space
