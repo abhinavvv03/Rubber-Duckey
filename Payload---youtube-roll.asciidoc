@@ -4,7 +4,7 @@ GUI r
 
 DELAY 200
 
-STRING https://www.youtube.com/watch?v=UAzNXbutRHw#t=1m12s
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 ENTER
 
