@@ -1,4 +1,4 @@
-# Slightly improved version of [WiFi password grabber](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload---WiFi-password-grabber)by Siem
+# Slightly improved version of [WiFi password grabber](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload---WiFi-password-grabber) by Siem
 
 ```REM Title       : Improved Wi-Fi Password Grabber
 REM Author      : Jacob Collins
