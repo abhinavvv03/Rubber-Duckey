@@ -1,6 +1,6 @@
-**REM Author: SULAMAN SAEED**
-**REM Description: Exploit to create a new local administrator account “Admin” with the password “admin”.**
-**REM The new account will be called "Admin".**
+**Author: SULAMAN SAEED**
+**Description: Exploit to create a new local administrator account “Admin” with the password “admin”.**
+**The new account will be called "Admin".**
 <p>
 REM Star delay
 DELAY 1000
