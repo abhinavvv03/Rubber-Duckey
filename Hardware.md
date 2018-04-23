@@ -6,7 +6,7 @@
 * JTAG Interface (can be used for I/O)
 * Standard “Type A” USB connector
 
-# Amtel AT32UC3B1256 Features
+# Atmel AT32UC3B1256 Features
 * High Performance, Low Power AVR 32 UC 32-Bit Microcontroller
 * Compact Single-cycle RISC Instruction Set Including DSP Instruction Set
 * Read-Modify-Write Instructions and Atomic Bit Manipulation
