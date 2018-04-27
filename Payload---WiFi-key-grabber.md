@@ -12,7 +12,7 @@ REM Title: WiFi key grabber
 REM Author: SiemH
 REM Version: 7
 REM Description: 
-REM 20 second payload that finds the SSID, Network type, Authentication type and the network key,
+REM 20 sec payload that finds the SSID, Network type, Authentication type and the network key,
 REM saves those to 'log' and creates an SMTP server and emails the contents of 'log'
 REM using the specified Gmail account to the specified receiver.
 
