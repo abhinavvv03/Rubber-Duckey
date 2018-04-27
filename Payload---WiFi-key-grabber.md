@@ -6,7 +6,7 @@
 * https://support.google.com/accounts/answer/6010255
 * **RECEIVER**: The email you want to send the contents of 'log' to
 
-## Succesfully tested on:
+## Succesfully tested on;
 * Windows 10
 * Windows 8.1
 * Windows 7
