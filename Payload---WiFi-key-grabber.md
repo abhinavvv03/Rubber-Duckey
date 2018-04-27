@@ -108,3 +108,19 @@ ENTER
 - The cmd prompt must be elevated to get any passwords.  If you change from using the WINDOWS r to using the search menu for "cmd" and pressing ctrl+shift+enter you can get a UAC prompt.  From there you'd need to alt+Y to get the elevated prompt. You can also use the run box but with the following command in Win7 and later:
 powershell Start-Process cmd -Verb runAs
 - **This is only true in some cases, for me personally it works without the elevated prompt on multiple systems.**
+```
+REM FASE 1: Preparation
+DELAY 3000
+REM --> Minimize all windows
+WINDOWS d
+DELAY 250
+REM --> Open cmd as administrator
+CONTROL ESCAPE
+DELAY 1000
+STRING cmd
+DELAY 1000
+CTRL-SHIFT ENTER
+DELAY 1000
+ALT y
+DELAY 500
+```
