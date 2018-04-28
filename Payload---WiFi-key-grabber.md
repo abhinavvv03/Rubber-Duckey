@@ -183,7 +183,7 @@ STRING del a & for /f "tokens=*"  %a in (b) do (netsh wlan show profiles "%a"  k
 ENTER
 
 REM FASE 3: Show results and cleanup
-STRING del b & cls & type *.x & pause & del *.x & exit
+STRING del b & cls & type *.x & del *.x & pause & exit
 ENTER
 ```
 
