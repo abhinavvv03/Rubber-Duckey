@@ -16,4 +16,4 @@ ENTER
 ```
 
 Suggestion:
-Turn of the second display (if there is one) with WINDOWS p and some arrow keys.
+Turn off the secondary display (if there is one) with WINDOWS p and some arrow keys.
