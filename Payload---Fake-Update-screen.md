@@ -14,3 +14,6 @@ DELAY 500
 STRING iexplore -k http://fakeupdate.net/win10u/index.html
 ENTER
 ```
+
+Suggestion:
+Turn of the second display (if there is one) with WINDOWS p and some arrow keys.
