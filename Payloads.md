@@ -63,7 +63,6 @@
  * [[Payload - Chrome Password Stealer]]
  * [[Payload - Website Lock]]
  * [[Payload - Windows 10 : Download & Change Wallpaper]]
- * [[Payload - Windows 10 : Download & Change Wallpaper another version]]
  * [[Payload - Windows 10 : Download and execute file with Powershell]]
  * [[Payload - Windows 10 : Disable windows defender]]
  * [[Payload - Windows 10 : Disable Windows Defender through powershell]]
