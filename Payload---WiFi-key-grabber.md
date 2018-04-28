@@ -184,3 +184,4 @@ DELAY 500
 
 ## To-do;
 * Add empty variable detection which replaces the empty variable with 'variable not obtained'
+* Create array of all saved networks and use 'for each' command to get all the keys
