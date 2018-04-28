@@ -223,6 +223,6 @@ DELAY 500
 
 ## To-do;
 * Add empty variable detection which replaces the empty variable with 'variable not obtained'
-* Create array of all saved networks and use 'for each' command to get all the keys **partially done**
+* Create array of all saved networks and use 'for each' command to get all the keys **DONE**
 * Fix duplicated 'Authentication' in 'All SSID's echo' script
 * Improve code
