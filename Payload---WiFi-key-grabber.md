@@ -149,10 +149,9 @@ ENTER
 ```
 REM Title: WiFi keys grabber
 REM Author: SiemH
-REM Version: 1
+REM Version: 3
 REM Description: 
-REM 10 sec payload that shows the Network type, 
-REM Authentication type and network key for all saved networks
+REM 10 sec payload that shows all saved network keys.
 
 REM FASE 1: Preparation
 DELAY 3000
