@@ -9,7 +9,7 @@
 ## Succesfully tested on;
 * Windows 10
 * Windows 8.1
-* Windows 7, requires UAC
+* Windows 7
 
 ## **Code**;
 * Gmail version;
@@ -203,7 +203,7 @@ ENTER
 - Added delay after sending SMTP message, to make sure the 'exit' and 'del log' are executed
 - The cmd prompt must be elevated to get any passwords.  If you change from using the WINDOWS r to using the search menu for "cmd" and pressing ctrl+shift+enter you can get a UAC prompt.  From there you'd need to alt+Y to get the elevated prompt. You can also use the run box but with the following command in Win7 and later:
 powershell Start-Process cmd -Verb runAs
-- **This is only true for Windows 7 systems, use the code below.**
+- **This is only true for non-administrator users, use the code below.**
 ```
 REM FASE 1: Preparation
 DELAY 3000
