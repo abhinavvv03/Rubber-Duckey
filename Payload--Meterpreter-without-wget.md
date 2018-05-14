@@ -1,4 +1,4 @@
-* Author: [KernelEquinox](https://github.com/KernelEquinox), conversion by (ThePlasmaRailgun)[https://github.com/ThePlasmaRailgun]
+* Author: [KernelEquinox](https://github.com/KernelEquinox), conversion by [ThePlasmaRailgun](https://github.com/ThePlasmaRailgun)
 * Target: Windows 7, Windows 10, Possibly Windows 8 and XP
 * Description: Runs a meterpreter reverse tcp payload through kernel32.dll and opens a reverse shell to a listener. Needs some conversion of listener IP and port to hex to connect
 
