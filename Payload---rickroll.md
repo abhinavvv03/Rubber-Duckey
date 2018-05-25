@@ -11,6 +11,12 @@ GUI r
 DELAY 200
 STRING cmd
 ENTER
+DELAY 500
+STRING del %tmp%\rickyou.vbs
+ENTER
+DELAY 200
+STRING del %tmp%\volup.vbs
+ENTER
 DELAY 200
 STRING cd %tmp% && copy con rickyou.vbs
 ENTER
