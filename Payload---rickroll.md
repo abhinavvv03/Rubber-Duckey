@@ -50,4 +50,7 @@ ENTER
 CTRL z
 ENTER
 STRING start rickyou.vbs && volup.vbs
+ENTER
+STRING exit
+ENTER
 </pre></code>
