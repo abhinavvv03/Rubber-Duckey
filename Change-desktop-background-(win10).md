@@ -18,7 +18,7 @@ Below is original text
 
 GET THE CODE SNIPS HERE:
 
-http://lostserver.com/static/rubberduckcode.txt
+https://lostserver.com/static/rubberduckcode.txt
 
 It will set the background image on a targets pc to whatever jpg you want - i recommend mylittleponys :) 
 
