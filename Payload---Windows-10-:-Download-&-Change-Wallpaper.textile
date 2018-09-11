@@ -7,7 +7,7 @@ DELAY 100
 REM Note: The internet explorer method works usually for everyone but
 REM If you want to use Chrome or Firefox instead of IE, remove 'iexplorer' from the following line
 REM but also make sure to follow instructions bellow
-STRING iexplore http://www.betaarchive.co.uk/imageupload/1283877178.or.61533.jpg
+STRING iexplore http://www.thecuriosityworkshop.com/wp-content/uploads/2015/03/01-rubberduck-hongkong.jpg
 ENTER
 DELAY 4000
 CONTROL s
