@@ -18,7 +18,7 @@ CONTROL ESCAPE
 DELAY 300
 REM If you want to use Chrome, change 'Documents' to 'Downloads'
 REM If you want to use Firefox, change 'Documents' to 'Pictures'
-STRING %USERPROFILE%\Documents\1283877178.or.61533.jpg
+STRING %USERPROFILE%\Documents\01-rubberduck-hongkong.jpg
 DELAY 500
 ENTER
 DELAY 500
