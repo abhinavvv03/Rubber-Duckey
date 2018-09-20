@@ -1,4 +1,4 @@
-Change example.com to your own domain or listening IP address and 1337 to your own port of choice.
+Change `example.com` to your listening server address and `1337` to your own port of choice.
 
 ```
 DELAY 2000
