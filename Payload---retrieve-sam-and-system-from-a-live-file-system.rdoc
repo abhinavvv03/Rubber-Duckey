@@ -1,4 +1,4 @@
-Author: Xcellerator
+Author: Xcellerators
 Duckncoder: 1.2
 Target: Windows Machines (Servers and Workstations)
 Teensy Version: http://pastebin.com/ufnLkbNX
