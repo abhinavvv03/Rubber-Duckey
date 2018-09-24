@@ -4,7 +4,7 @@ Target: Windows Machines (Servers and Workstations)
 Teensy Version: http://pastebin.com/ufnLkbNX
 Description: Uses a script called vssown.vbs to create a shadow file system and then retrieves the SAM and SYSTEM files for hash retrieval later on. Credit for DuckyDownloader script to Haysoos.
 CODE
-ALT F4
+ ALT F4
  ESCAPE
  CONTROL ESCAPE
  DELAY 400
