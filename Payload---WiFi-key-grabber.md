@@ -1,7 +1,7 @@
 ## Change the following things;
-* **SFTPpass** : Your **Sftp password**
-* **SFTPusername** : Your **sftp username**
-* **SFTPserver** : Your **sftp server address**
+* "**SFTPpass**" : Your **Sftp password**
+* "**SFTPusername**" : Your **sftp username**
+* "**SFTPserver**" : Your **sftp server address**
 
 
 ## Succesfully tested on;
