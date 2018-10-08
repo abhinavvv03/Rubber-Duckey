@@ -5,7 +5,7 @@
 
 ## **CODE**:
 ```
-REM Title: Netcat Reverse Shell
+REM Title: Netcat Bind Shell
 REM Author: Kanishk Singh
 REM Version: 1
 REM Description:
