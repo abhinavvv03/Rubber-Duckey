@@ -120,3 +120,43 @@ UP
 DELAY 100
 ENTER
 ```
+-----------------------------------------------------------------
+
+* Author: Blue
+* Target: Windows 10
+* Description: As above but faster and works
+REM Desktop wallpaper prank
+DELAY 1000
+GUI d
+DELAY 100
+PRINTSCREEN
+DELAY 100
+MENU
+DELAY 300
+STRING V
+DELAY 10
+RIGHT
+DELAY 10
+STRING D
+DELAY 10
+GUI r
+DELAY 100
+STRING mspaint
+ENTER
+DELAY 300
+CTRL v
+DELAY 300
+ALT f
+STRING s
+DELAY 200
+STRING %userprofile%\a.bmp
+ENTER
+DELAY 100
+ALT f
+DELAY 200
+STRING b
+DELAY 200
+ALT F4
+DELAY 300
+GUI d
+```
