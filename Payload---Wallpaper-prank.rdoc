@@ -125,6 +125,7 @@ ENTER
 * Author: Blue
 * Target: Windows 10
 * Description: As above but faster and works
+```
 REM Desktop wallpaper prank
 DELAY 1000
 GUI d
