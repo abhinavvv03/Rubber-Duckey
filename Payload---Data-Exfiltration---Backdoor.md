@@ -10,7 +10,7 @@ WINDOWS d
 DELAY 450
 WINDOWS r
 DELAY 450
-STRING powershell Start-Process powershell -Verb runAs -windowstyle hidden
+STRING powershell Start-Process powershell -Verb runAs
 DELAY 30
 ENTER
 DELAY 500
