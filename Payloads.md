@@ -72,3 +72,4 @@
  * [[Payload - Fake Update screen]]
  * [Payload - Rickroll](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload---rickroll)
  * [Payload - Fast Meterpreter](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload--Fast-Meterpreter)
+ * [Payload - Data-Exfiltration / Backdoor](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload---Data-Exfiltration---Backdoor)
