@@ -73,7 +73,7 @@ REM # Cleanup
 REM *****************
 STRING del C:\Information.txt
 ENTER
-REM STRING exit
-REM ENTER
+STRING exit
+ENTER
 ```
 https://github.com/Crumb93
