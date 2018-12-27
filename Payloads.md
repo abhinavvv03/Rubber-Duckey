@@ -67,6 +67,7 @@
  * [[Payload - Windows 10 : Download and execute file with Powershell]]
  * [[Payload - Windows 10 : Disable windows defender]]
  * [[Payload - Windows 10 : Disable Windows Defender through powershell]]
+* [Payload - Windows 10 : Wifi, Chrome Dump & email results](https://github.com/cubidalsphere/Rubber-Ducky)
  * [Payload - Windows 7 : Logoff Prank](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload-:-Log-Off-Prank-(Windows-7))
  * [Payload - Netcat Reverse Shell](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload-Netcat-Reverse-Shell)
  * [[Payload - Fake Update screen]]
