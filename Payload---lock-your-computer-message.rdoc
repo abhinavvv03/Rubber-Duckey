@@ -78,7 +78,7 @@ Description: I use this script to leave a message for my agents who do not lock 
  STRING There, just like Bart Simpson.
  ENTER
  ENTER
- STRING Please remember to lock your computer when you step away from your desk.
+ STRING Please remember to lock your computer (Windows+L) when you step away from your desk.
  ENTER
  ENTER
  STRING Thank you.
@@ -86,4 +86,5 @@ Description: I use this script to leave a message for my agents who do not lock 
  DELAY 100
  ALT SPACE
  STRING x
- 
+ DELAY 50
+ GUI l
