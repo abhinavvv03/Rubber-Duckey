@@ -8,6 +8,6 @@ STRING notepad
 DELAY 500
 ENTER
 DELAY 750
-STRING Hello World!!!
+STRING Honorio López is in the house!!!
 ENTER
 ```
