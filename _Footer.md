@@ -1,3 +1,1 @@
-***
-# Hello and visit [this site](https://lucagrosshennig.club)
-***
+An ad used to be here
