@@ -1,8 +1,9 @@
-**Author: SULAMAN SAEED**
-**Description: Exploit to create a new local administrator account “ADMIN” with the password “admin”.**
-**Hide user from user settings and from login screen. **
+Author: SULAMAN SAEED  
+Description: Exploit to create a new local administrator account _ADMIN_ with the password _admin_.  
+Hide user from user settings and from login screen.
 
-<p>
+
+```
 REM Start delay
 DELAY 1000
 DELAY 300
@@ -50,4 +51,4 @@ REM Safe exiting
 STRING exit
 DELAY 300
 ENTER
-</p>
+```
