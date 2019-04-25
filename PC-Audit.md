@@ -1,3 +1,4 @@
+```
 DELAY 2000
 GUI r
 DELAY 150
@@ -57,5 +58,6 @@ ENTER
 DELAY 100
 STRING EXIT
 ENTER
-REM Made by Phantom Santa  
+REM Made by Phantom Santa 
+```
 
