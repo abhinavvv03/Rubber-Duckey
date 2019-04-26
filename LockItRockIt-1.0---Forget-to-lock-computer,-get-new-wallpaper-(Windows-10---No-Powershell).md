@@ -1,5 +1,5 @@
 REM LockItRockIt 1.0
-REM 
+REM
 REM Author: Bucky67GTO
 REM Duckencoder: 2.6.3
 REM Target: Windows 10
