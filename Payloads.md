@@ -1,16 +1,4 @@
- * [[Payload - Hello World]]
- * [Payload - WiFi key grabber](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload---WiFi-key-grabber)
- * [[Payload - Basic Terminal Commands Ubuntu]]
- * [[Payload - Information Gathering Ubuntu]]
- * [[Payload - Hide CMD Window]]
- * [[Payload - Netcat-FTP-download-and-reverse-shell]]
- * [[Payload - Wallpaper Prank]]
- * [[Payload - YOU GOT QUACKED!]]
- * [[Payload - Reverse Shell]]
- * [Payload - Reverse Shell With Persistence](https://github.com/WifiLANDucky/DigiPayloads/wiki/Ducky-Reverse-Shell-With-Persistence)
- * [[Payload - Fork Bomb]]
- * [[Payload - Utilman Exploit]]
- * [[Payload - WiFi Backdoor]]
+
  * [[Payload - Non-Malicious Auto Defacer]]
  * [[Payload - Lock Your Computer Message]]
  * [[Payload - Ducky Downloader]]
