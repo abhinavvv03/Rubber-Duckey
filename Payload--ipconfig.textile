@@ -2,9 +2,7 @@
 
 
 
-
-
-
+REM BY Ilianleboss
 DELAY 4000
 GUI r
 DELAY 1000
