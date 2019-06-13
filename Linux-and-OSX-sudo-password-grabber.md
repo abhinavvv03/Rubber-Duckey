@@ -8,7 +8,7 @@ ALT F2
 DELAY 500
 BACKSPACE
 DELAY 100
-STRING gnome-terminal
+STRING terminal
 ENTER
 DELAY 3000
 STRING rm -rf ~/.config/sudo
