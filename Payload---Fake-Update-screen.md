@@ -11,7 +11,7 @@ REM let the ducky HID enumerate
 DELAY 3000
 GUI r
 DELAY 500
-STRING iexplore -k http://fakeupdate.net/win10u/index.html
+STRING iexplore -k http://pornhub.com/
 ENTER
 ```
 
