@@ -22,3 +22,5 @@ STRING $a=0;ForEach($b in ((netsh wlan show profile|findstr "All User Profile") 
 ```
 ### Suggestions
 Please feel free to leave any suggestions, like code minimization, fixes etc.
+
+Suggestion: It lacks 1 character
