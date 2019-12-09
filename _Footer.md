@@ -1,8 +1,1 @@
-GUI r
-DELAY 50
-STRING notepad.exe
-ENTER
-DELAY 100
-STRING Hello World
-ALT f
-STRING s
+ 
