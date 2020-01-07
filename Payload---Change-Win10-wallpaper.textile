@@ -1,3 +1,4 @@
+```
 REM Run, changes wallpaper after restart
 GUI
 REM Now we enter PowerShell and change directory to C:\Temp
@@ -21,3 +22,4 @@ ENTER
 DELAY 200
 STRING exit
 ENTER
+```
