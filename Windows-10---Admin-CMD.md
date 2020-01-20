@@ -21,3 +21,6 @@ This simple payload just open a CMD with admin privileges, use it in any payload
     DELAY 150
     ENTER
     REM You got an admin CMD, you can do whatever you want
+
+
+_zqrk_
