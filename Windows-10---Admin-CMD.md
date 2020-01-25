@@ -14,8 +14,7 @@ This simple payload just open a CMD with admin privileges, use it in any payload
     DELAY 100
     STRING cmd
     DELAY 100
-    CONTROL SHIFT
-    ENTER
+    CONTROL-SHIFT ENTER
     DELAY 150
     LEFTARROW
     DELAY 150
